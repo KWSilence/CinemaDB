@@ -1,0 +1,13 @@
+C:\Users\Kamil\Desktop\DB\curs\CinemaDB\CinemaDB\bin\Debug\CinemaDB.exe.config
+C:\Users\Kamil\Desktop\DB\curs\CinemaDB\CinemaDB\bin\Debug\CinemaDB.exe
+C:\Users\Kamil\Desktop\DB\curs\CinemaDB\CinemaDB\bin\Debug\CinemaDB.pdb
+C:\Users\Kamil\Desktop\DB\curs\CinemaDB\CinemaDB\obj\Debug\CinemaDB.csprojAssemblyReference.cache
+C:\Users\Kamil\Desktop\DB\curs\CinemaDB\CinemaDB\obj\Debug\CinemaDB.Properties.Resources.resources
+C:\Users\Kamil\Desktop\DB\curs\CinemaDB\CinemaDB\obj\Debug\CinemaDB.csproj.GenerateResource.cache
+C:\Users\Kamil\Desktop\DB\curs\CinemaDB\CinemaDB\obj\Debug\CinemaDB.csproj.CoreCompileInputs.cache
+C:\Users\Kamil\Desktop\DB\curs\CinemaDB\CinemaDB\obj\Debug\CinemaDB.exe
+C:\Users\Kamil\Desktop\DB\curs\CinemaDB\CinemaDB\obj\Debug\CinemaDB.pdb
+C:\Users\Kamil\Desktop\DB\curs\CinemaDB\CinemaDB\obj\Debug\CinemaDB.ActorForm.resources
+C:\Users\Kamil\Desktop\DB\curs\CinemaDB\CinemaDB\obj\Debug\CinemaDB.DecoratorForm.resources
+C:\Users\Kamil\Desktop\DB\curs\CinemaDB\CinemaDB\obj\Debug\CinemaDB.InitialForm.resources
+C:\Users\Kamil\Desktop\DB\curs\CinemaDB\CinemaDB\obj\Debug\CinemaDB.ProducerForm.resources
