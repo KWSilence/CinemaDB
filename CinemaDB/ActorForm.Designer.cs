@@ -30,18 +30,19 @@
         {
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.profileEditClose = new System.Windows.Forms.Button();
+            this.profileEdit = new System.Windows.Forms.Button();
+            this.profileExit = new System.Windows.Forms.Button();
+            this.profileAbout = new System.Windows.Forms.TextBox();
+            this.profileContact = new System.Windows.Forms.TextBox();
+            this.profileName = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.labelPost = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.profileName = new System.Windows.Forms.TextBox();
-            this.profileContact = new System.Windows.Forms.TextBox();
-            this.profileAbout = new System.Windows.Forms.TextBox();
-            this.profileExit = new System.Windows.Forms.Button();
-            this.profileEdit = new System.Windows.Forms.Button();
-            this.profileEditClose = new System.Windows.Forms.Button();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
@@ -51,6 +52,7 @@
             this.tabControl.Controls.Add(this.tabPage1);
             this.tabControl.Controls.Add(this.tabPage2);
             this.tabControl.Controls.Add(this.tabPage3);
+            this.tabControl.Controls.Add(this.tabPage4);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl.Location = new System.Drawing.Point(0, 0);
             this.tabControl.Name = "tabControl";
@@ -77,6 +79,72 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Profile";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // profileEditClose
+            // 
+            this.profileEditClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.profileEditClose.Location = new System.Drawing.Point(159, 376);
+            this.profileEditClose.Name = "profileEditClose";
+            this.profileEditClose.Size = new System.Drawing.Size(75, 30);
+            this.profileEditClose.TabIndex = 5;
+            this.profileEditClose.Text = "Close";
+            this.profileEditClose.UseVisualStyleBackColor = true;
+            this.profileEditClose.Visible = false;
+            this.profileEditClose.Click += new System.EventHandler(this.closeProfileEdit);
+            // 
+            // profileEdit
+            // 
+            this.profileEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.profileEdit.Location = new System.Drawing.Point(78, 376);
+            this.profileEdit.Name = "profileEdit";
+            this.profileEdit.Size = new System.Drawing.Size(75, 30);
+            this.profileEdit.TabIndex = 4;
+            this.profileEdit.Text = "Edit";
+            this.profileEdit.UseVisualStyleBackColor = true;
+            this.profileEdit.Click += new System.EventHandler(this.editProfile);
+            // 
+            // profileExit
+            // 
+            this.profileExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.profileExit.Location = new System.Drawing.Point(709, 376);
+            this.profileExit.Name = "profileExit";
+            this.profileExit.Size = new System.Drawing.Size(75, 30);
+            this.profileExit.TabIndex = 3;
+            this.profileExit.Text = "Exit";
+            this.profileExit.UseVisualStyleBackColor = true;
+            this.profileExit.Click += new System.EventHandler(this.exitToInitial);
+            // 
+            // profileAbout
+            // 
+            this.profileAbout.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.profileAbout.Location = new System.Drawing.Point(78, 132);
+            this.profileAbout.Multiline = true;
+            this.profileAbout.Name = "profileAbout";
+            this.profileAbout.ReadOnly = true;
+            this.profileAbout.Size = new System.Drawing.Size(706, 228);
+            this.profileAbout.TabIndex = 2;
+            // 
+            // profileContact
+            // 
+            this.profileContact.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.profileContact.Location = new System.Drawing.Point(78, 92);
+            this.profileContact.Name = "profileContact";
+            this.profileContact.ReadOnly = true;
+            this.profileContact.Size = new System.Drawing.Size(706, 22);
+            this.profileContact.TabIndex = 2;
+            // 
+            // profileName
+            // 
+            this.profileName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.profileName.Location = new System.Drawing.Point(78, 52);
+            this.profileName.Name = "profileName";
+            this.profileName.ReadOnly = true;
+            this.profileName.Size = new System.Drawing.Size(706, 22);
+            this.profileName.TabIndex = 2;
             // 
             // label4
             // 
@@ -133,71 +201,14 @@
             this.tabPage3.Text = "Characters";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // profileName
+            // tabPage4
             // 
-            this.profileName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.profileName.Location = new System.Drawing.Point(78, 52);
-            this.profileName.Name = "profileName";
-            this.profileName.ReadOnly = true;
-            this.profileName.Size = new System.Drawing.Size(706, 22);
-            this.profileName.TabIndex = 2;
-            // 
-            // profileContact
-            // 
-            this.profileContact.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.profileContact.Location = new System.Drawing.Point(78, 92);
-            this.profileContact.Name = "profileContact";
-            this.profileContact.ReadOnly = true;
-            this.profileContact.Size = new System.Drawing.Size(706, 22);
-            this.profileContact.TabIndex = 2;
-            // 
-            // profileAbout
-            // 
-            this.profileAbout.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.profileAbout.Location = new System.Drawing.Point(78, 132);
-            this.profileAbout.Multiline = true;
-            this.profileAbout.Name = "profileAbout";
-            this.profileAbout.ReadOnly = true;
-            this.profileAbout.Size = new System.Drawing.Size(706, 228);
-            this.profileAbout.TabIndex = 2;
-            // 
-            // profileExit
-            // 
-            this.profileExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.profileExit.Location = new System.Drawing.Point(709, 376);
-            this.profileExit.Name = "profileExit";
-            this.profileExit.Size = new System.Drawing.Size(75, 30);
-            this.profileExit.TabIndex = 3;
-            this.profileExit.Text = "Exit";
-            this.profileExit.UseVisualStyleBackColor = true;
-            this.profileExit.Click += new System.EventHandler(this.exitToInitial);
-            // 
-            // profileEdit
-            // 
-            this.profileEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.profileEdit.Location = new System.Drawing.Point(78, 376);
-            this.profileEdit.Name = "profileEdit";
-            this.profileEdit.Size = new System.Drawing.Size(75, 30);
-            this.profileEdit.TabIndex = 4;
-            this.profileEdit.Text = "Edit";
-            this.profileEdit.UseVisualStyleBackColor = true;
-            this.profileEdit.Click += new System.EventHandler(this.editProfile);
-            // 
-            // profileEditClose
-            // 
-            this.profileEditClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.profileEditClose.Location = new System.Drawing.Point(159, 376);
-            this.profileEditClose.Name = "profileEditClose";
-            this.profileEditClose.Size = new System.Drawing.Size(75, 30);
-            this.profileEditClose.TabIndex = 5;
-            this.profileEditClose.Text = "Close";
-            this.profileEditClose.UseVisualStyleBackColor = true;
-            this.profileEditClose.Visible = false;
-            this.profileEditClose.Click += new System.EventHandler(this.closeProfileEdit);
+            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(792, 421);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Tasks";
+            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // ActorForm
             // 
@@ -231,5 +242,6 @@
         private System.Windows.Forms.TextBox profileAbout;
         private System.Windows.Forms.TextBox profileContact;
         private System.Windows.Forms.TextBox profileName;
+        private System.Windows.Forms.TabPage tabPage4;
     }
 }

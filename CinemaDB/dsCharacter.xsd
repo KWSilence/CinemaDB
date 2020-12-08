@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCharacter" targetNamespace="http://tempuri.org/dsCharacter.xsd" xmlns:mstns="http://tempuri.org/dsCharacter.xsd" xmlns="http://tempuri.org/dsCharacter.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCharacter" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsCharacter" msprop:Generator_UserDSName="dsCharacter">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Character" msprop:Generator_TableClassName="CharacterDataTable" msprop:Generator_TableVarName="tableCharacter" msprop:Generator_TablePropName="Character" msprop:Generator_RowDeletingName="CharacterRowDeleting" msprop:Generator_RowChangingName="CharacterRowChanging" msprop:Generator_RowEvHandlerName="CharacterRowChangeEventHandler" msprop:Generator_RowDeletedName="CharacterRowDeleted" msprop:Generator_UserTableName="Character" msprop:Generator_RowChangedName="CharacterRowChanged" msprop:Generator_RowEvArgName="CharacterRowChangeEvent" msprop:Generator_RowClassName="CharacterRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name" type="xs:string" minOccurs="0" />
+              <xs:element name="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnPropNameInTable="descriptionColumn" msprop:Generator_UserColumnName="description" type="xs:string" minOccurs="0" />
+              <xs:element name="requirements" msprop:Generator_ColumnVarNameInTable="columnrequirements" msprop:Generator_ColumnPropNameInRow="requirements" msprop:Generator_ColumnPropNameInTable="requirementsColumn" msprop:Generator_UserColumnName="requirements" type="xs:string" minOccurs="0" />
+              <xs:element name="id" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Scenario" msprop:Generator_TableClassName="ScenarioDataTable" msprop:Generator_TableVarName="tableScenario" msprop:Generator_TablePropName="Scenario" msprop:Generator_RowDeletingName="ScenarioRowDeleting" msprop:Generator_RowChangingName="ScenarioRowChanging" msprop:Generator_RowEvHandlerName="ScenarioRowChangeEventHandler" msprop:Generator_RowDeletedName="ScenarioRowDeleted" msprop:Generator_UserTableName="Scenario" msprop:Generator_RowChangedName="ScenarioRowChanged" msprop:Generator_RowEvArgName="ScenarioRowChangeEvent" msprop:Generator_RowClassName="ScenarioRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ScenarioInfo" msprop:Generator_ColumnVarNameInTable="columnScenarioInfo" msprop:Generator_ColumnPropNameInRow="ScenarioInfo" msprop:Generator_ColumnPropNameInTable="ScenarioInfoColumn" msprop:Generator_UserColumnName="ScenarioInfo" type="xs:string" minOccurs="0" />
+              <xs:element name="ScenarioDoc" msprop:Generator_ColumnVarNameInTable="columnScenarioDoc" msprop:Generator_ColumnPropNameInRow="ScenarioDoc" msprop:Generator_ColumnPropNameInTable="ScenarioDocColumn" msprop:Generator_UserColumnName="ScenarioDoc" type="xs:string" minOccurs="0" />
+              <xs:element name="id" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ScenarioAdd" msprop:Generator_TableClassName="ScenarioAddDataTable" msprop:Generator_TableVarName="tableScenarioAdd" msprop:Generator_TablePropName="ScenarioAdd" msprop:Generator_RowDeletingName="ScenarioAddRowDeleting" msprop:Generator_RowChangingName="ScenarioAddRowChanging" msprop:Generator_RowEvHandlerName="ScenarioAddRowChangeEventHandler" msprop:Generator_RowDeletedName="ScenarioAddRowDeleted" msprop:Generator_UserTableName="ScenarioAdd" msprop:Generator_RowChangedName="ScenarioAddRowChanged" msprop:Generator_RowEvArgName="ScenarioAddRowChangeEvent" msprop:Generator_RowClassName="ScenarioAddRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SInfo" msprop:Generator_ColumnVarNameInTable="columnSInfo" msprop:Generator_ColumnPropNameInRow="SInfo" msprop:Generator_ColumnPropNameInTable="SInfoColumn" msprop:Generator_UserColumnName="SInfo" type="xs:string" minOccurs="0" />
+              <xs:element name="SDoc" msprop:Generator_ColumnVarNameInTable="columnSDoc" msprop:Generator_ColumnPropNameInRow="SDoc" msprop:Generator_ColumnPropNameInTable="SDocColumn" msprop:Generator_UserColumnName="SDoc" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
