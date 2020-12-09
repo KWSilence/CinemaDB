@@ -268,15 +268,15 @@
             this.label3.Text = "Name:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // Form1
+            // InitialForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(486, 243);
             this.Controls.Add(this.tabControl);
             this.MinimumSize = new System.Drawing.Size(500, 290);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "InitialForm";
+            this.Text = "InitialForm";
             this.tabControl.ResumeLayout(false);
             this.siTab.ResumeLayout(false);
             this.siTab.PerformLayout();

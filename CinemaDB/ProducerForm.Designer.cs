@@ -134,6 +134,7 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.deleteScenarioButton = new System.Windows.Forms.Button();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage5.SuspendLayout();
@@ -416,6 +417,7 @@
             this.tabPage2.Controls.Add(this.dataScenario);
             this.tabPage2.Controls.Add(this.dataChar);
             this.tabPage2.Controls.Add(this.cEdit);
+            this.tabPage2.Controls.Add(this.deleteScenarioButton);
             this.tabPage2.Controls.Add(this.cReset);
             this.tabPage2.Controls.Add(this.cCreate);
             this.tabPage2.Controls.Add(this.cSelect);
@@ -1314,6 +1316,17 @@
             this.label13.TabIndex = 0;
             this.label13.Text = "Film:";
             // 
+            // deleteScenarioButton
+            // 
+            this.deleteScenarioButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.deleteScenarioButton.Location = new System.Drawing.Point(684, 418);
+            this.deleteScenarioButton.Name = "deleteScenarioButton";
+            this.deleteScenarioButton.Size = new System.Drawing.Size(75, 30);
+            this.deleteScenarioButton.TabIndex = 11;
+            this.deleteScenarioButton.Text = "Delete";
+            this.deleteScenarioButton.UseVisualStyleBackColor = true;
+            this.deleteScenarioButton.Click += new System.EventHandler(this.deleteScenario);
+            // 
             // ProducerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1464,5 +1477,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn stateDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn contactsDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource workSheetBindingSource;
+        private System.Windows.Forms.Button deleteScenarioButton;
     }
 }

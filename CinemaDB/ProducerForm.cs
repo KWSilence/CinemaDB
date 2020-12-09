@@ -109,6 +109,7 @@ namespace CinemaDB
                 cAdd.Enabled = false;
                 cEdit.Enabled = false;
                 cReset.Enabled = false;
+                deleteScenarioButton.Enabled = false;
                 return;
             }
             OleDbCommand character = new OleDbCommand("exec getCharsByFilm ?", cn);
@@ -327,6 +328,7 @@ namespace CinemaDB
             cEdit.Enabled = true;
             cReset.Enabled = true;
             cCreate.Enabled = true;
+            deleteScenarioButton.Enabled = true;
 
             if (cSelect.SelectedIndex != -1)
             {
@@ -448,8 +450,6 @@ namespace CinemaDB
 
         private void resetEdited(object sender, EventArgs e)
         {
-            MessageBox.Show(dsCharacter.Tables["Scenario"].Rows[dataScenario.SelectedCells[0].RowIndex]["ScenarioInfo"].ToString(), "Success", MessageBoxButtons.OK);
-
             cCreate.Text = "Create";
             dsCharacter.Tables["Character"].Clear();
             dsCharacter.Tables["Scenario"].Clear();
@@ -506,6 +506,7 @@ namespace CinemaDB
                 cEdit.Enabled = false;
                 cAdd.Enabled = false;
                 cReset.Enabled = false;
+                deleteScenarioButton.Enabled = false;
                 dataScenario.Enabled = false;
                 dataScenarioAdd.Enabled = false;
                 dataChar.AllowUserToAddRows = true;
@@ -839,6 +840,23 @@ namespace CinemaDB
 
             OleDbDataAdapter taskInfo = new OleDbDataAdapter("exec getTasksInfo '" + tFilm.SelectedItem.ToString() + "', '" + tScene.SelectedItem.ToString() + "', '" + tCharacter.SelectedItem.ToString() + "'", cn);
             taskInfo.Fill(dsCharacter, "Tasks");
+        }
+
+        private void deleteScenario(object sender, EventArgs e)
+        {
+            if (dataScenario.SelectedRows.Count == 0)
+            {
+                return;
+            }
+
+            int id = int.Parse(dataScenario.SelectedRows[0].Cells[0].Value.ToString());
+
+            OleDbCommand d = new OleDbCommand("delete from Scenario where id = "+id, cn);
+            d.ExecuteNonQuery();
+
+            dsCharacter.Tables["Scenario"].Clear();
+            OleDbDataAdapter dd = new OleDbDataAdapter("exec getScenarioByFilmAndChar \'" + fSelect.SelectedItem.ToString() + "\', \'" + cSelect.SelectedItem.ToString() + "\'", cn);
+            dd.Fill(dsCharacter, "Scenario");
         }
     }
 }

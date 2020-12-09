@@ -309,7 +309,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(906, 433);
+            this.tabPage2.Size = new System.Drawing.Size(981, 438);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Scene";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -553,7 +553,7 @@
             this.sFilm.FormattingEnabled = true;
             this.sFilm.Location = new System.Drawing.Point(97, 10);
             this.sFilm.Name = "sFilm";
-            this.sFilm.Size = new System.Drawing.Size(801, 24);
+            this.sFilm.Size = new System.Drawing.Size(876, 24);
             this.sFilm.TabIndex = 1;
             // 
             // label9
@@ -593,7 +593,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.sName.Location = new System.Drawing.Point(97, 40);
             this.sName.Name = "sName";
-            this.sName.Size = new System.Drawing.Size(801, 22);
+            this.sName.Size = new System.Drawing.Size(876, 22);
             this.sName.TabIndex = 5;
             // 
             // sDesc
@@ -602,7 +602,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.sDesc.Location = new System.Drawing.Point(97, 68);
             this.sDesc.Name = "sDesc";
-            this.sDesc.Size = new System.Drawing.Size(801, 22);
+            this.sDesc.Size = new System.Drawing.Size(876, 22);
             this.sDesc.TabIndex = 6;
             // 
             // sBudget
@@ -611,13 +611,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.sBudget.Location = new System.Drawing.Point(97, 96);
             this.sBudget.Name = "sBudget";
-            this.sBudget.Size = new System.Drawing.Size(801, 22);
+            this.sBudget.Size = new System.Drawing.Size(876, 22);
             this.sBudget.TabIndex = 7;
             // 
             // button5
             // 
             this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button5.Location = new System.Drawing.Point(823, 124);
+            this.button5.Location = new System.Drawing.Point(898, 124);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 30);
             this.button5.TabIndex = 8;
@@ -655,13 +655,13 @@
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.RowHeadersWidth = 51;
             this.dataGridView4.RowTemplate.Height = 24;
-            this.dataGridView4.Size = new System.Drawing.Size(887, 214);
+            this.dataGridView4.Size = new System.Drawing.Size(962, 219);
             this.dataGridView4.TabIndex = 10;
             // 
             // button6
             // 
             this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button6.Location = new System.Drawing.Point(825, 395);
+            this.button6.Location = new System.Drawing.Point(900, 400);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 30);
             this.button6.TabIndex = 11;
@@ -672,7 +672,7 @@
             // button7
             // 
             this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button7.Location = new System.Drawing.Point(744, 395);
+            this.button7.Location = new System.Drawing.Point(819, 400);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 30);
             this.button7.TabIndex = 11;
