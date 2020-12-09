@@ -88,6 +88,57 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+        <xs:element name="FreeCharacter" msprop:Generator_TableClassName="FreeCharacterDataTable" msprop:Generator_TableVarName="tableFreeCharacter" msprop:Generator_TablePropName="FreeCharacter" msprop:Generator_RowDeletingName="FreeCharacterRowDeleting" msprop:Generator_RowChangingName="FreeCharacterRowChanging" msprop:Generator_RowEvHandlerName="FreeCharacterRowChangeEventHandler" msprop:Generator_RowDeletedName="FreeCharacterRowDeleted" msprop:Generator_UserTableName="FreeCharacter" msprop:Generator_RowChangedName="FreeCharacterRowChanged" msprop:Generator_RowEvArgName="FreeCharacterRowChangeEvent" msprop:Generator_RowClassName="FreeCharacterRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="film" msprop:Generator_ColumnVarNameInTable="columnfilm" msprop:Generator_ColumnPropNameInRow="film" msprop:Generator_ColumnPropNameInTable="filmColumn" msprop:Generator_UserColumnName="film" type="xs:string" minOccurs="0" />
+              <xs:element name="character" msprop:Generator_ColumnVarNameInTable="columncharacter" msprop:Generator_ColumnPropNameInRow="character" msprop:Generator_ColumnPropNameInTable="characterColumn" msprop:Generator_UserColumnName="character" type="xs:string" minOccurs="0" />
+              <xs:element name="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnPropNameInTable="descriptionColumn" msprop:Generator_UserColumnName="description" type="xs:string" minOccurs="0" />
+              <xs:element name="requirements" msprop:Generator_ColumnVarNameInTable="columnrequirements" msprop:Generator_ColumnPropNameInRow="requirements" msprop:Generator_ColumnPropNameInTable="requirementsColumn" msprop:Generator_UserColumnName="requirements" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ActorForms" msprop:Generator_TableClassName="ActorFormsDataTable" msprop:Generator_TableVarName="tableActorForms" msprop:Generator_TablePropName="ActorForms" msprop:Generator_RowDeletingName="ActorFormsRowDeleting" msprop:Generator_RowChangingName="ActorFormsRowChanging" msprop:Generator_RowEvHandlerName="ActorFormsRowChangeEventHandler" msprop:Generator_RowDeletedName="ActorFormsRowDeleted" msprop:Generator_UserTableName="ActorForms" msprop:Generator_RowChangedName="ActorFormsRowChanged" msprop:Generator_RowEvArgName="ActorFormsRowChangeEvent" msprop:Generator_RowClassName="ActorFormsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="film" msprop:Generator_ColumnVarNameInTable="columnfilm" msprop:Generator_ColumnPropNameInRow="film" msprop:Generator_ColumnPropNameInTable="filmColumn" msprop:Generator_UserColumnName="film" type="xs:string" minOccurs="0" />
+              <xs:element name="character" msprop:Generator_ColumnVarNameInTable="columncharacter" msprop:Generator_ColumnPropNameInRow="character" msprop:Generator_ColumnPropNameInTable="characterColumn" msprop:Generator_UserColumnName="character" type="xs:string" minOccurs="0" />
+              <xs:element name="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnPropNameInTable="descriptionColumn" msprop:Generator_UserColumnName="description" type="xs:string" minOccurs="0" />
+              <xs:element name="requirements" msprop:Generator_ColumnVarNameInTable="columnrequirements" msprop:Generator_ColumnPropNameInRow="requirements" msprop:Generator_ColumnPropNameInTable="requirementsColumn" msprop:Generator_UserColumnName="requirements" type="xs:string" minOccurs="0" />
+              <xs:element name="info" msprop:Generator_ColumnVarNameInTable="columninfo" msprop:Generator_ColumnPropNameInRow="info" msprop:Generator_ColumnPropNameInTable="infoColumn" msprop:Generator_UserColumnName="info" type="xs:string" minOccurs="0" />
+              <xs:element name="state" msprop:Generator_ColumnVarNameInTable="columnstate" msprop:Generator_ColumnPropNameInRow="state" msprop:Generator_ColumnPropNameInTable="stateColumn" msprop:Generator_UserColumnName="state" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AcceptedCharacter" msprop:Generator_TableClassName="AcceptedCharacterDataTable" msprop:Generator_TableVarName="tableAcceptedCharacter" msprop:Generator_TablePropName="AcceptedCharacter" msprop:Generator_RowDeletingName="AcceptedCharacterRowDeleting" msprop:Generator_RowChangingName="AcceptedCharacterRowChanging" msprop:Generator_RowEvHandlerName="AcceptedCharacterRowChangeEventHandler" msprop:Generator_RowDeletedName="AcceptedCharacterRowDeleted" msprop:Generator_UserTableName="AcceptedCharacter" msprop:Generator_RowChangedName="AcceptedCharacterRowChanged" msprop:Generator_RowEvArgName="AcceptedCharacterRowChangeEvent" msprop:Generator_RowClassName="AcceptedCharacterRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="film" msprop:Generator_ColumnVarNameInTable="columnfilm" msprop:Generator_ColumnPropNameInRow="film" msprop:Generator_ColumnPropNameInTable="filmColumn" msprop:Generator_UserColumnName="film" type="xs:string" minOccurs="0" />
+              <xs:element name="character" msprop:Generator_ColumnVarNameInTable="columncharacter" msprop:Generator_ColumnPropNameInRow="character" msprop:Generator_ColumnPropNameInTable="characterColumn" msprop:Generator_UserColumnName="character" type="xs:string" minOccurs="0" />
+              <xs:element name="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnPropNameInTable="descriptionColumn" msprop:Generator_UserColumnName="description" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ActorScenario" msprop:Generator_TableClassName="ActorScenarioDataTable" msprop:Generator_TableVarName="tableActorScenario" msprop:Generator_TablePropName="ActorScenario" msprop:Generator_RowDeletingName="ActorScenarioRowDeleting" msprop:Generator_RowChangingName="ActorScenarioRowChanging" msprop:Generator_RowEvHandlerName="ActorScenarioRowChangeEventHandler" msprop:Generator_RowDeletedName="ActorScenarioRowDeleted" msprop:Generator_UserTableName="ActorScenario" msprop:Generator_RowChangedName="ActorScenarioRowChanged" msprop:Generator_RowEvArgName="ActorScenarioRowChangeEvent" msprop:Generator_RowClassName="ActorScenarioRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="info" msprop:Generator_ColumnVarNameInTable="columninfo" msprop:Generator_ColumnPropNameInRow="info" msprop:Generator_ColumnPropNameInTable="infoColumn" msprop:Generator_UserColumnName="info" type="xs:string" minOccurs="0" />
+              <xs:element name="doc" msprop:Generator_ColumnVarNameInTable="columndoc" msprop:Generator_ColumnPropNameInRow="doc" msprop:Generator_ColumnPropNameInTable="docColumn" msprop:Generator_UserColumnName="doc" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Scene" msprop:Generator_TableClassName="SceneDataTable" msprop:Generator_TableVarName="tableScene" msprop:Generator_TablePropName="Scene" msprop:Generator_RowDeletingName="SceneRowDeleting" msprop:Generator_RowChangingName="SceneRowChanging" msprop:Generator_RowEvHandlerName="SceneRowChangeEventHandler" msprop:Generator_RowDeletedName="SceneRowDeleted" msprop:Generator_UserTableName="Scene" msprop:Generator_RowChangedName="SceneRowChanged" msprop:Generator_RowEvArgName="SceneRowChangeEvent" msprop:Generator_RowClassName="SceneRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name" type="xs:string" minOccurs="0" />
+              <xs:element name="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnPropNameInTable="descriptionColumn" msprop:Generator_UserColumnName="description" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
       </xs:choice>
     </xs:complexType>
   </xs:element>
