@@ -54,8 +54,21 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.cAdd = new System.Windows.Forms.Button();
             this.dataScenarioAdd = new System.Windows.Forms.DataGridView();
+            this.sInfoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sDocDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.scenarioAddBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dsCharacter = new CinemaDB.dsCharacter();
             this.dataScenario = new System.Windows.Forms.DataGridView();
+            this.idDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.scenarioInfoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.scenarioDocDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.scenarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataChar = new System.Windows.Forms.DataGridView();
+            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.requirementsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.characterBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.cEdit = new System.Windows.Forms.Button();
             this.cReset = new System.Windows.Forms.Button();
             this.cCreate = new System.Windows.Forms.Button();
@@ -72,15 +85,44 @@
             this.fSelect = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.idDataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.postDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.characterDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contactsDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.staffUseBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.label20 = new System.Windows.Forms.Label();
+            this.sWait = new System.Windows.Forms.Button();
             this.sDeny = new System.Windows.Forms.Button();
             this.sAccept = new System.Windows.Forms.Button();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.dataStaff = new System.Windows.Forms.DataGridView();
+            this.idDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.postDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.characterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.staffBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataWork = new System.Windows.Forms.DataGridView();
+            this.idDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.staffDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.infoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.stateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contactsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.workSheetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.sFilm = new System.Windows.Forms.ComboBox();
             this.label17 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.dataTasks = new System.Windows.Forms.DataGridView();
+            this.idDataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descriptionDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.stateDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tasksBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataTasksAdd = new System.Windows.Forms.DataGridView();
+            this.descriptionDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tasksAddBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tResetButton = new System.Windows.Forms.Button();
             this.tEditButton = new System.Windows.Forms.Button();
             this.tAddButton = new System.Windows.Forms.Button();
@@ -92,71 +134,29 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.sWait = new System.Windows.Forms.Button();
-            this.label20 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataTasksAdd = new System.Windows.Forms.DataGridView();
-            this.dataTasks = new System.Windows.Forms.DataGridView();
-            this.sInfoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sDocDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.scenarioAddBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dsCharacter = new CinemaDB.dsCharacter();
-            this.idDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.scenarioInfoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.scenarioDocDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.scenarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.requirementsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.characterBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.idDataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.postDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.characterDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.contactsDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.staffUseBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.idDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.postDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.characterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.staffBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.idDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.staffDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.infoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.stateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.contactsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.workSheetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.descriptionDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tasksAddBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tasksBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.idDataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.descriptionDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.stateDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage5.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataScenarioAdd)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataScenario)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataChar)).BeginInit();
-            this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataStaff)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataWork)).BeginInit();
-            this.tabPage4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataTasksAdd)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataTasks)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.scenarioAddBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsCharacter)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataScenario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.scenarioBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataChar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.characterBindingSource)).BeginInit();
+            this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.staffUseBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataStaff)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.staffBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataWork)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.workSheetBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tasksAddBindingSource)).BeginInit();
+            this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTasks)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tasksBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTasksAdd)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tasksAddBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl
@@ -469,6 +469,32 @@
             this.dataScenarioAdd.Size = new System.Drawing.Size(247, 166);
             this.dataScenarioAdd.TabIndex = 14;
             // 
+            // sInfoDataGridViewTextBoxColumn
+            // 
+            this.sInfoDataGridViewTextBoxColumn.DataPropertyName = "SInfo";
+            this.sInfoDataGridViewTextBoxColumn.HeaderText = "SInfo";
+            this.sInfoDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.sInfoDataGridViewTextBoxColumn.Name = "sInfoDataGridViewTextBoxColumn";
+            this.sInfoDataGridViewTextBoxColumn.Width = 69;
+            // 
+            // sDocDataGridViewTextBoxColumn
+            // 
+            this.sDocDataGridViewTextBoxColumn.DataPropertyName = "SDoc";
+            this.sDocDataGridViewTextBoxColumn.HeaderText = "SDoc";
+            this.sDocDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.sDocDataGridViewTextBoxColumn.Name = "sDocDataGridViewTextBoxColumn";
+            this.sDocDataGridViewTextBoxColumn.Width = 71;
+            // 
+            // scenarioAddBindingSource
+            // 
+            this.scenarioAddBindingSource.DataMember = "ScenarioAdd";
+            this.scenarioAddBindingSource.DataSource = this.dsCharacter;
+            // 
+            // dsCharacter
+            // 
+            this.dsCharacter.DataSetName = "dsCharacter";
+            this.dsCharacter.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // dataScenario
             // 
             this.dataScenario.AllowUserToAddRows = false;
@@ -491,6 +517,36 @@
             this.dataScenario.Size = new System.Drawing.Size(657, 74);
             this.dataScenario.TabIndex = 13;
             // 
+            // idDataGridViewTextBoxColumn1
+            // 
+            this.idDataGridViewTextBoxColumn1.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn1.HeaderText = "id";
+            this.idDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.idDataGridViewTextBoxColumn1.Name = "idDataGridViewTextBoxColumn1";
+            this.idDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.idDataGridViewTextBoxColumn1.Width = 48;
+            // 
+            // scenarioInfoDataGridViewTextBoxColumn
+            // 
+            this.scenarioInfoDataGridViewTextBoxColumn.DataPropertyName = "ScenarioInfo";
+            this.scenarioInfoDataGridViewTextBoxColumn.HeaderText = "ScenarioInfo";
+            this.scenarioInfoDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.scenarioInfoDataGridViewTextBoxColumn.Name = "scenarioInfoDataGridViewTextBoxColumn";
+            this.scenarioInfoDataGridViewTextBoxColumn.Width = 116;
+            // 
+            // scenarioDocDataGridViewTextBoxColumn
+            // 
+            this.scenarioDocDataGridViewTextBoxColumn.DataPropertyName = "ScenarioDoc";
+            this.scenarioDocDataGridViewTextBoxColumn.HeaderText = "ScenarioDoc";
+            this.scenarioDocDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.scenarioDocDataGridViewTextBoxColumn.Name = "scenarioDocDataGridViewTextBoxColumn";
+            this.scenarioDocDataGridViewTextBoxColumn.Width = 118;
+            // 
+            // scenarioBindingSource
+            // 
+            this.scenarioBindingSource.DataMember = "Scenario";
+            this.scenarioBindingSource.DataSource = this.dsCharacter;
+            // 
             // dataChar
             // 
             this.dataChar.AllowUserToAddRows = false;
@@ -512,6 +568,44 @@
             this.dataChar.RowTemplate.Height = 24;
             this.dataChar.Size = new System.Drawing.Size(657, 86);
             this.dataChar.TabIndex = 12;
+            // 
+            // idDataGridViewTextBoxColumn
+            // 
+            this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn.HeaderText = "id";
+            this.idDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            this.idDataGridViewTextBoxColumn.ReadOnly = true;
+            this.idDataGridViewTextBoxColumn.Width = 48;
+            // 
+            // nameDataGridViewTextBoxColumn
+            // 
+            this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
+            this.nameDataGridViewTextBoxColumn.HeaderText = "name";
+            this.nameDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+            this.nameDataGridViewTextBoxColumn.Width = 72;
+            // 
+            // descriptionDataGridViewTextBoxColumn
+            // 
+            this.descriptionDataGridViewTextBoxColumn.DataPropertyName = "description";
+            this.descriptionDataGridViewTextBoxColumn.HeaderText = "description";
+            this.descriptionDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
+            this.descriptionDataGridViewTextBoxColumn.Width = 106;
+            // 
+            // requirementsDataGridViewTextBoxColumn
+            // 
+            this.requirementsDataGridViewTextBoxColumn.DataPropertyName = "requirements";
+            this.requirementsDataGridViewTextBoxColumn.HeaderText = "requirements";
+            this.requirementsDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.requirementsDataGridViewTextBoxColumn.Name = "requirementsDataGridViewTextBoxColumn";
+            this.requirementsDataGridViewTextBoxColumn.Width = 120;
+            // 
+            // characterBindingSource
+            // 
+            this.characterBindingSource.DataMember = "Character";
+            this.characterBindingSource.DataSource = this.dsCharacter;
             // 
             // cEdit
             // 
@@ -697,6 +791,100 @@
             this.tabPage3.Text = "Staff";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn4,
+            this.postDataGridViewTextBoxColumn1,
+            this.characterDataGridViewTextBoxColumn1,
+            this.nameDataGridViewTextBoxColumn2,
+            this.contactsDataGridViewTextBoxColumn1});
+            this.dataGridView1.DataSource = this.staffUseBindingSource;
+            this.dataGridView1.Location = new System.Drawing.Point(11, 290);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(424, 128);
+            this.dataGridView1.TabIndex = 9;
+            // 
+            // idDataGridViewTextBoxColumn4
+            // 
+            this.idDataGridViewTextBoxColumn4.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn4.HeaderText = "id";
+            this.idDataGridViewTextBoxColumn4.MinimumWidth = 6;
+            this.idDataGridViewTextBoxColumn4.Name = "idDataGridViewTextBoxColumn4";
+            this.idDataGridViewTextBoxColumn4.ReadOnly = true;
+            this.idDataGridViewTextBoxColumn4.Width = 48;
+            // 
+            // postDataGridViewTextBoxColumn1
+            // 
+            this.postDataGridViewTextBoxColumn1.DataPropertyName = "post";
+            this.postDataGridViewTextBoxColumn1.HeaderText = "post";
+            this.postDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.postDataGridViewTextBoxColumn1.Name = "postDataGridViewTextBoxColumn1";
+            this.postDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.postDataGridViewTextBoxColumn1.Width = 64;
+            // 
+            // characterDataGridViewTextBoxColumn1
+            // 
+            this.characterDataGridViewTextBoxColumn1.DataPropertyName = "character";
+            this.characterDataGridViewTextBoxColumn1.HeaderText = "character";
+            this.characterDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.characterDataGridViewTextBoxColumn1.Name = "characterDataGridViewTextBoxColumn1";
+            this.characterDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.characterDataGridViewTextBoxColumn1.Width = 97;
+            // 
+            // nameDataGridViewTextBoxColumn2
+            // 
+            this.nameDataGridViewTextBoxColumn2.DataPropertyName = "name";
+            this.nameDataGridViewTextBoxColumn2.HeaderText = "name";
+            this.nameDataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.nameDataGridViewTextBoxColumn2.Name = "nameDataGridViewTextBoxColumn2";
+            this.nameDataGridViewTextBoxColumn2.ReadOnly = true;
+            this.nameDataGridViewTextBoxColumn2.Width = 72;
+            // 
+            // contactsDataGridViewTextBoxColumn1
+            // 
+            this.contactsDataGridViewTextBoxColumn1.DataPropertyName = "contacts";
+            this.contactsDataGridViewTextBoxColumn1.HeaderText = "contacts";
+            this.contactsDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.contactsDataGridViewTextBoxColumn1.Name = "contactsDataGridViewTextBoxColumn1";
+            this.contactsDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.contactsDataGridViewTextBoxColumn1.Width = 90;
+            // 
+            // staffUseBindingSource
+            // 
+            this.staffUseBindingSource.DataMember = "StaffUse";
+            this.staffUseBindingSource.DataSource = this.dsCharacter;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(8, 270);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(67, 17);
+            this.label20.TabIndex = 8;
+            this.label20.Text = "Accepted";
+            // 
+            // sWait
+            // 
+            this.sWait.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.sWait.Location = new System.Drawing.Point(765, 424);
+            this.sWait.Name = "sWait";
+            this.sWait.Size = new System.Drawing.Size(75, 30);
+            this.sWait.TabIndex = 6;
+            this.sWait.Text = "Wait";
+            this.sWait.UseVisualStyleBackColor = true;
+            this.sWait.Click += new System.EventHandler(this.sWaitEvent);
+            // 
             // sDeny
             // 
             this.sDeny.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -758,6 +946,38 @@
             this.dataStaff.Size = new System.Drawing.Size(424, 193);
             this.dataStaff.TabIndex = 3;
             // 
+            // idDataGridViewTextBoxColumn3
+            // 
+            this.idDataGridViewTextBoxColumn3.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn3.HeaderText = "id";
+            this.idDataGridViewTextBoxColumn3.MinimumWidth = 6;
+            this.idDataGridViewTextBoxColumn3.Name = "idDataGridViewTextBoxColumn3";
+            this.idDataGridViewTextBoxColumn3.ReadOnly = true;
+            this.idDataGridViewTextBoxColumn3.Width = 48;
+            // 
+            // postDataGridViewTextBoxColumn
+            // 
+            this.postDataGridViewTextBoxColumn.DataPropertyName = "post";
+            this.postDataGridViewTextBoxColumn.HeaderText = "post";
+            this.postDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.postDataGridViewTextBoxColumn.Name = "postDataGridViewTextBoxColumn";
+            this.postDataGridViewTextBoxColumn.ReadOnly = true;
+            this.postDataGridViewTextBoxColumn.Width = 64;
+            // 
+            // characterDataGridViewTextBoxColumn
+            // 
+            this.characterDataGridViewTextBoxColumn.DataPropertyName = "character";
+            this.characterDataGridViewTextBoxColumn.HeaderText = "character";
+            this.characterDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.characterDataGridViewTextBoxColumn.Name = "characterDataGridViewTextBoxColumn";
+            this.characterDataGridViewTextBoxColumn.ReadOnly = true;
+            this.characterDataGridViewTextBoxColumn.Width = 97;
+            // 
+            // staffBindingSource
+            // 
+            this.staffBindingSource.DataMember = "Staff";
+            this.staffBindingSource.DataSource = this.dsCharacter;
+            // 
             // dataWork
             // 
             this.dataWork.AllowUserToAddRows = false;
@@ -785,6 +1005,65 @@
             this.dataWork.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataWork.Size = new System.Drawing.Size(480, 344);
             this.dataWork.TabIndex = 2;
+            // 
+            // idDataGridViewTextBoxColumn2
+            // 
+            this.idDataGridViewTextBoxColumn2.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn2.HeaderText = "id";
+            this.idDataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.idDataGridViewTextBoxColumn2.Name = "idDataGridViewTextBoxColumn2";
+            this.idDataGridViewTextBoxColumn2.ReadOnly = true;
+            this.idDataGridViewTextBoxColumn2.Width = 48;
+            // 
+            // staffDataGridViewTextBoxColumn
+            // 
+            this.staffDataGridViewTextBoxColumn.DataPropertyName = "staff";
+            this.staffDataGridViewTextBoxColumn.HeaderText = "staff";
+            this.staffDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.staffDataGridViewTextBoxColumn.Name = "staffDataGridViewTextBoxColumn";
+            this.staffDataGridViewTextBoxColumn.ReadOnly = true;
+            this.staffDataGridViewTextBoxColumn.Width = 64;
+            // 
+            // nameDataGridViewTextBoxColumn1
+            // 
+            this.nameDataGridViewTextBoxColumn1.DataPropertyName = "name";
+            this.nameDataGridViewTextBoxColumn1.HeaderText = "name";
+            this.nameDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.nameDataGridViewTextBoxColumn1.Name = "nameDataGridViewTextBoxColumn1";
+            this.nameDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.nameDataGridViewTextBoxColumn1.Width = 72;
+            // 
+            // infoDataGridViewTextBoxColumn
+            // 
+            this.infoDataGridViewTextBoxColumn.DataPropertyName = "info";
+            this.infoDataGridViewTextBoxColumn.HeaderText = "info";
+            this.infoDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.infoDataGridViewTextBoxColumn.Name = "infoDataGridViewTextBoxColumn";
+            this.infoDataGridViewTextBoxColumn.ReadOnly = true;
+            this.infoDataGridViewTextBoxColumn.Width = 60;
+            // 
+            // stateDataGridViewTextBoxColumn
+            // 
+            this.stateDataGridViewTextBoxColumn.DataPropertyName = "state";
+            this.stateDataGridViewTextBoxColumn.HeaderText = "state";
+            this.stateDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.stateDataGridViewTextBoxColumn.Name = "stateDataGridViewTextBoxColumn";
+            this.stateDataGridViewTextBoxColumn.ReadOnly = true;
+            this.stateDataGridViewTextBoxColumn.Width = 68;
+            // 
+            // contactsDataGridViewTextBoxColumn
+            // 
+            this.contactsDataGridViewTextBoxColumn.DataPropertyName = "contacts";
+            this.contactsDataGridViewTextBoxColumn.HeaderText = "contacts";
+            this.contactsDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.contactsDataGridViewTextBoxColumn.Name = "contactsDataGridViewTextBoxColumn";
+            this.contactsDataGridViewTextBoxColumn.ReadOnly = true;
+            this.contactsDataGridViewTextBoxColumn.Width = 90;
+            // 
+            // workSheetBindingSource
+            // 
+            this.workSheetBindingSource.DataMember = "WorkSheet";
+            this.workSheetBindingSource.DataSource = this.dsCharacter;
             // 
             // sFilm
             // 
@@ -828,6 +1107,99 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Tasks";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // dataTasks
+            // 
+            this.dataTasks.AllowUserToAddRows = false;
+            this.dataTasks.AllowUserToDeleteRows = false;
+            this.dataTasks.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataTasks.AutoGenerateColumns = false;
+            this.dataTasks.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataTasks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataTasks.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn5,
+            this.nameDataGridViewTextBoxColumn3,
+            this.descriptionDataGridViewTextBoxColumn2,
+            this.stateDataGridViewTextBoxColumn1});
+            this.dataTasks.DataSource = this.tasksBindingSource;
+            this.dataTasks.Location = new System.Drawing.Point(257, 120);
+            this.dataTasks.Name = "dataTasks";
+            this.dataTasks.RowHeadersWidth = 51;
+            this.dataTasks.RowTemplate.Height = 24;
+            this.dataTasks.Size = new System.Drawing.Size(664, 293);
+            this.dataTasks.TabIndex = 14;
+            // 
+            // idDataGridViewTextBoxColumn5
+            // 
+            this.idDataGridViewTextBoxColumn5.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn5.HeaderText = "id";
+            this.idDataGridViewTextBoxColumn5.MinimumWidth = 6;
+            this.idDataGridViewTextBoxColumn5.Name = "idDataGridViewTextBoxColumn5";
+            this.idDataGridViewTextBoxColumn5.ReadOnly = true;
+            this.idDataGridViewTextBoxColumn5.Width = 48;
+            // 
+            // nameDataGridViewTextBoxColumn3
+            // 
+            this.nameDataGridViewTextBoxColumn3.DataPropertyName = "name";
+            this.nameDataGridViewTextBoxColumn3.HeaderText = "name";
+            this.nameDataGridViewTextBoxColumn3.MinimumWidth = 6;
+            this.nameDataGridViewTextBoxColumn3.Name = "nameDataGridViewTextBoxColumn3";
+            this.nameDataGridViewTextBoxColumn3.ReadOnly = true;
+            this.nameDataGridViewTextBoxColumn3.Width = 72;
+            // 
+            // descriptionDataGridViewTextBoxColumn2
+            // 
+            this.descriptionDataGridViewTextBoxColumn2.DataPropertyName = "description";
+            this.descriptionDataGridViewTextBoxColumn2.HeaderText = "description";
+            this.descriptionDataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.descriptionDataGridViewTextBoxColumn2.Name = "descriptionDataGridViewTextBoxColumn2";
+            this.descriptionDataGridViewTextBoxColumn2.Width = 106;
+            // 
+            // stateDataGridViewTextBoxColumn1
+            // 
+            this.stateDataGridViewTextBoxColumn1.DataPropertyName = "state";
+            this.stateDataGridViewTextBoxColumn1.HeaderText = "state";
+            this.stateDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.stateDataGridViewTextBoxColumn1.Name = "stateDataGridViewTextBoxColumn1";
+            this.stateDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.stateDataGridViewTextBoxColumn1.Width = 68;
+            // 
+            // tasksBindingSource
+            // 
+            this.tasksBindingSource.DataMember = "Tasks";
+            this.tasksBindingSource.DataSource = this.dsCharacter;
+            // 
+            // dataTasksAdd
+            // 
+            this.dataTasksAdd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.dataTasksAdd.AutoGenerateColumns = false;
+            this.dataTasksAdd.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataTasksAdd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataTasksAdd.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.descriptionDataGridViewTextBoxColumn1});
+            this.dataTasksAdd.DataSource = this.tasksAddBindingSource;
+            this.dataTasksAdd.Location = new System.Drawing.Point(11, 150);
+            this.dataTasksAdd.Name = "dataTasksAdd";
+            this.dataTasksAdd.RowHeadersWidth = 51;
+            this.dataTasksAdd.RowTemplate.Height = 24;
+            this.dataTasksAdd.Size = new System.Drawing.Size(240, 263);
+            this.dataTasksAdd.TabIndex = 13;
+            // 
+            // descriptionDataGridViewTextBoxColumn1
+            // 
+            this.descriptionDataGridViewTextBoxColumn1.DataPropertyName = "description";
+            this.descriptionDataGridViewTextBoxColumn1.HeaderText = "description";
+            this.descriptionDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.descriptionDataGridViewTextBoxColumn1.Name = "descriptionDataGridViewTextBoxColumn1";
+            this.descriptionDataGridViewTextBoxColumn1.Width = 106;
+            // 
+            // tasksAddBindingSource
+            // 
+            this.tasksAddBindingSource.DataMember = "TasksAdd";
+            this.tasksAddBindingSource.DataSource = this.dsCharacter;
             // 
             // tResetButton
             // 
@@ -942,373 +1314,6 @@
             this.label13.TabIndex = 0;
             this.label13.Text = "Film:";
             // 
-            // sWait
-            // 
-            this.sWait.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.sWait.Location = new System.Drawing.Point(765, 424);
-            this.sWait.Name = "sWait";
-            this.sWait.Size = new System.Drawing.Size(75, 30);
-            this.sWait.TabIndex = 6;
-            this.sWait.Text = "Wait";
-            this.sWait.UseVisualStyleBackColor = true;
-            this.sWait.Click += new System.EventHandler(this.sWaitEvent);
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(8, 270);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(67, 17);
-            this.label20.TabIndex = 8;
-            this.label20.Text = "Accepted";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn4,
-            this.postDataGridViewTextBoxColumn1,
-            this.characterDataGridViewTextBoxColumn1,
-            this.nameDataGridViewTextBoxColumn2,
-            this.contactsDataGridViewTextBoxColumn1});
-            this.dataGridView1.DataSource = this.staffUseBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(11, 290);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(424, 128);
-            this.dataGridView1.TabIndex = 9;
-            // 
-            // dataTasksAdd
-            // 
-            this.dataTasksAdd.AutoGenerateColumns = false;
-            this.dataTasksAdd.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.dataTasksAdd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataTasksAdd.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.descriptionDataGridViewTextBoxColumn1});
-            this.dataTasksAdd.DataSource = this.tasksAddBindingSource;
-            this.dataTasksAdd.Location = new System.Drawing.Point(11, 150);
-            this.dataTasksAdd.Name = "dataTasksAdd";
-            this.dataTasksAdd.RowHeadersWidth = 51;
-            this.dataTasksAdd.RowTemplate.Height = 24;
-            this.dataTasksAdd.Size = new System.Drawing.Size(240, 263);
-            this.dataTasksAdd.TabIndex = 13;
-            // 
-            // dataTasks
-            // 
-            this.dataTasks.AllowUserToAddRows = false;
-            this.dataTasks.AllowUserToDeleteRows = false;
-            this.dataTasks.AutoGenerateColumns = false;
-            this.dataTasks.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.dataTasks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataTasks.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn5,
-            this.nameDataGridViewTextBoxColumn3,
-            this.descriptionDataGridViewTextBoxColumn2,
-            this.stateDataGridViewTextBoxColumn1});
-            this.dataTasks.DataSource = this.tasksBindingSource;
-            this.dataTasks.Location = new System.Drawing.Point(257, 120);
-            this.dataTasks.Name = "dataTasks";
-            this.dataTasks.RowHeadersWidth = 51;
-            this.dataTasks.RowTemplate.Height = 24;
-            this.dataTasks.Size = new System.Drawing.Size(664, 293);
-            this.dataTasks.TabIndex = 14;
-            // 
-            // sInfoDataGridViewTextBoxColumn
-            // 
-            this.sInfoDataGridViewTextBoxColumn.DataPropertyName = "SInfo";
-            this.sInfoDataGridViewTextBoxColumn.HeaderText = "SInfo";
-            this.sInfoDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.sInfoDataGridViewTextBoxColumn.Name = "sInfoDataGridViewTextBoxColumn";
-            this.sInfoDataGridViewTextBoxColumn.Width = 69;
-            // 
-            // sDocDataGridViewTextBoxColumn
-            // 
-            this.sDocDataGridViewTextBoxColumn.DataPropertyName = "SDoc";
-            this.sDocDataGridViewTextBoxColumn.HeaderText = "SDoc";
-            this.sDocDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.sDocDataGridViewTextBoxColumn.Name = "sDocDataGridViewTextBoxColumn";
-            this.sDocDataGridViewTextBoxColumn.Width = 71;
-            // 
-            // scenarioAddBindingSource
-            // 
-            this.scenarioAddBindingSource.DataMember = "ScenarioAdd";
-            this.scenarioAddBindingSource.DataSource = this.dsCharacter;
-            // 
-            // dsCharacter
-            // 
-            this.dsCharacter.DataSetName = "dsCharacter";
-            this.dsCharacter.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // idDataGridViewTextBoxColumn1
-            // 
-            this.idDataGridViewTextBoxColumn1.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn1.HeaderText = "id";
-            this.idDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.idDataGridViewTextBoxColumn1.Name = "idDataGridViewTextBoxColumn1";
-            this.idDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.idDataGridViewTextBoxColumn1.Width = 48;
-            // 
-            // scenarioInfoDataGridViewTextBoxColumn
-            // 
-            this.scenarioInfoDataGridViewTextBoxColumn.DataPropertyName = "ScenarioInfo";
-            this.scenarioInfoDataGridViewTextBoxColumn.HeaderText = "ScenarioInfo";
-            this.scenarioInfoDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.scenarioInfoDataGridViewTextBoxColumn.Name = "scenarioInfoDataGridViewTextBoxColumn";
-            this.scenarioInfoDataGridViewTextBoxColumn.Width = 116;
-            // 
-            // scenarioDocDataGridViewTextBoxColumn
-            // 
-            this.scenarioDocDataGridViewTextBoxColumn.DataPropertyName = "ScenarioDoc";
-            this.scenarioDocDataGridViewTextBoxColumn.HeaderText = "ScenarioDoc";
-            this.scenarioDocDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.scenarioDocDataGridViewTextBoxColumn.Name = "scenarioDocDataGridViewTextBoxColumn";
-            this.scenarioDocDataGridViewTextBoxColumn.Width = 118;
-            // 
-            // scenarioBindingSource
-            // 
-            this.scenarioBindingSource.DataMember = "Scenario";
-            this.scenarioBindingSource.DataSource = this.dsCharacter;
-            // 
-            // idDataGridViewTextBoxColumn
-            // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "id";
-            this.idDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            this.idDataGridViewTextBoxColumn.ReadOnly = true;
-            this.idDataGridViewTextBoxColumn.Width = 48;
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "name";
-            this.nameDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            this.nameDataGridViewTextBoxColumn.Width = 72;
-            // 
-            // descriptionDataGridViewTextBoxColumn
-            // 
-            this.descriptionDataGridViewTextBoxColumn.DataPropertyName = "description";
-            this.descriptionDataGridViewTextBoxColumn.HeaderText = "description";
-            this.descriptionDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
-            this.descriptionDataGridViewTextBoxColumn.Width = 106;
-            // 
-            // requirementsDataGridViewTextBoxColumn
-            // 
-            this.requirementsDataGridViewTextBoxColumn.DataPropertyName = "requirements";
-            this.requirementsDataGridViewTextBoxColumn.HeaderText = "requirements";
-            this.requirementsDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.requirementsDataGridViewTextBoxColumn.Name = "requirementsDataGridViewTextBoxColumn";
-            this.requirementsDataGridViewTextBoxColumn.Width = 120;
-            // 
-            // characterBindingSource
-            // 
-            this.characterBindingSource.DataMember = "Character";
-            this.characterBindingSource.DataSource = this.dsCharacter;
-            // 
-            // idDataGridViewTextBoxColumn4
-            // 
-            this.idDataGridViewTextBoxColumn4.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn4.HeaderText = "id";
-            this.idDataGridViewTextBoxColumn4.MinimumWidth = 6;
-            this.idDataGridViewTextBoxColumn4.Name = "idDataGridViewTextBoxColumn4";
-            this.idDataGridViewTextBoxColumn4.ReadOnly = true;
-            this.idDataGridViewTextBoxColumn4.Width = 48;
-            // 
-            // postDataGridViewTextBoxColumn1
-            // 
-            this.postDataGridViewTextBoxColumn1.DataPropertyName = "post";
-            this.postDataGridViewTextBoxColumn1.HeaderText = "post";
-            this.postDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.postDataGridViewTextBoxColumn1.Name = "postDataGridViewTextBoxColumn1";
-            this.postDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.postDataGridViewTextBoxColumn1.Width = 64;
-            // 
-            // characterDataGridViewTextBoxColumn1
-            // 
-            this.characterDataGridViewTextBoxColumn1.DataPropertyName = "character";
-            this.characterDataGridViewTextBoxColumn1.HeaderText = "character";
-            this.characterDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.characterDataGridViewTextBoxColumn1.Name = "characterDataGridViewTextBoxColumn1";
-            this.characterDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.characterDataGridViewTextBoxColumn1.Width = 97;
-            // 
-            // nameDataGridViewTextBoxColumn2
-            // 
-            this.nameDataGridViewTextBoxColumn2.DataPropertyName = "name";
-            this.nameDataGridViewTextBoxColumn2.HeaderText = "name";
-            this.nameDataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.nameDataGridViewTextBoxColumn2.Name = "nameDataGridViewTextBoxColumn2";
-            this.nameDataGridViewTextBoxColumn2.ReadOnly = true;
-            this.nameDataGridViewTextBoxColumn2.Width = 72;
-            // 
-            // contactsDataGridViewTextBoxColumn1
-            // 
-            this.contactsDataGridViewTextBoxColumn1.DataPropertyName = "contacts";
-            this.contactsDataGridViewTextBoxColumn1.HeaderText = "contacts";
-            this.contactsDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.contactsDataGridViewTextBoxColumn1.Name = "contactsDataGridViewTextBoxColumn1";
-            this.contactsDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.contactsDataGridViewTextBoxColumn1.Width = 90;
-            // 
-            // staffUseBindingSource
-            // 
-            this.staffUseBindingSource.DataMember = "StaffUse";
-            this.staffUseBindingSource.DataSource = this.dsCharacter;
-            // 
-            // idDataGridViewTextBoxColumn3
-            // 
-            this.idDataGridViewTextBoxColumn3.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn3.HeaderText = "id";
-            this.idDataGridViewTextBoxColumn3.MinimumWidth = 6;
-            this.idDataGridViewTextBoxColumn3.Name = "idDataGridViewTextBoxColumn3";
-            this.idDataGridViewTextBoxColumn3.ReadOnly = true;
-            this.idDataGridViewTextBoxColumn3.Width = 48;
-            // 
-            // postDataGridViewTextBoxColumn
-            // 
-            this.postDataGridViewTextBoxColumn.DataPropertyName = "post";
-            this.postDataGridViewTextBoxColumn.HeaderText = "post";
-            this.postDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.postDataGridViewTextBoxColumn.Name = "postDataGridViewTextBoxColumn";
-            this.postDataGridViewTextBoxColumn.ReadOnly = true;
-            this.postDataGridViewTextBoxColumn.Width = 64;
-            // 
-            // characterDataGridViewTextBoxColumn
-            // 
-            this.characterDataGridViewTextBoxColumn.DataPropertyName = "character";
-            this.characterDataGridViewTextBoxColumn.HeaderText = "character";
-            this.characterDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.characterDataGridViewTextBoxColumn.Name = "characterDataGridViewTextBoxColumn";
-            this.characterDataGridViewTextBoxColumn.ReadOnly = true;
-            this.characterDataGridViewTextBoxColumn.Width = 97;
-            // 
-            // staffBindingSource
-            // 
-            this.staffBindingSource.DataMember = "Staff";
-            this.staffBindingSource.DataSource = this.dsCharacter;
-            // 
-            // idDataGridViewTextBoxColumn2
-            // 
-            this.idDataGridViewTextBoxColumn2.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn2.HeaderText = "id";
-            this.idDataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.idDataGridViewTextBoxColumn2.Name = "idDataGridViewTextBoxColumn2";
-            this.idDataGridViewTextBoxColumn2.ReadOnly = true;
-            this.idDataGridViewTextBoxColumn2.Width = 48;
-            // 
-            // staffDataGridViewTextBoxColumn
-            // 
-            this.staffDataGridViewTextBoxColumn.DataPropertyName = "staff";
-            this.staffDataGridViewTextBoxColumn.HeaderText = "staff";
-            this.staffDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.staffDataGridViewTextBoxColumn.Name = "staffDataGridViewTextBoxColumn";
-            this.staffDataGridViewTextBoxColumn.ReadOnly = true;
-            this.staffDataGridViewTextBoxColumn.Width = 64;
-            // 
-            // nameDataGridViewTextBoxColumn1
-            // 
-            this.nameDataGridViewTextBoxColumn1.DataPropertyName = "name";
-            this.nameDataGridViewTextBoxColumn1.HeaderText = "name";
-            this.nameDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.nameDataGridViewTextBoxColumn1.Name = "nameDataGridViewTextBoxColumn1";
-            this.nameDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.nameDataGridViewTextBoxColumn1.Width = 72;
-            // 
-            // infoDataGridViewTextBoxColumn
-            // 
-            this.infoDataGridViewTextBoxColumn.DataPropertyName = "info";
-            this.infoDataGridViewTextBoxColumn.HeaderText = "info";
-            this.infoDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.infoDataGridViewTextBoxColumn.Name = "infoDataGridViewTextBoxColumn";
-            this.infoDataGridViewTextBoxColumn.ReadOnly = true;
-            this.infoDataGridViewTextBoxColumn.Width = 60;
-            // 
-            // stateDataGridViewTextBoxColumn
-            // 
-            this.stateDataGridViewTextBoxColumn.DataPropertyName = "state";
-            this.stateDataGridViewTextBoxColumn.HeaderText = "state";
-            this.stateDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.stateDataGridViewTextBoxColumn.Name = "stateDataGridViewTextBoxColumn";
-            this.stateDataGridViewTextBoxColumn.ReadOnly = true;
-            this.stateDataGridViewTextBoxColumn.Width = 68;
-            // 
-            // contactsDataGridViewTextBoxColumn
-            // 
-            this.contactsDataGridViewTextBoxColumn.DataPropertyName = "contacts";
-            this.contactsDataGridViewTextBoxColumn.HeaderText = "contacts";
-            this.contactsDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.contactsDataGridViewTextBoxColumn.Name = "contactsDataGridViewTextBoxColumn";
-            this.contactsDataGridViewTextBoxColumn.ReadOnly = true;
-            this.contactsDataGridViewTextBoxColumn.Width = 90;
-            // 
-            // workSheetBindingSource
-            // 
-            this.workSheetBindingSource.DataMember = "WorkSheet";
-            this.workSheetBindingSource.DataSource = this.dsCharacter;
-            // 
-            // descriptionDataGridViewTextBoxColumn1
-            // 
-            this.descriptionDataGridViewTextBoxColumn1.DataPropertyName = "description";
-            this.descriptionDataGridViewTextBoxColumn1.HeaderText = "description";
-            this.descriptionDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.descriptionDataGridViewTextBoxColumn1.Name = "descriptionDataGridViewTextBoxColumn1";
-            this.descriptionDataGridViewTextBoxColumn1.Width = 106;
-            // 
-            // tasksAddBindingSource
-            // 
-            this.tasksAddBindingSource.DataMember = "TasksAdd";
-            this.tasksAddBindingSource.DataSource = this.dsCharacter;
-            // 
-            // tasksBindingSource
-            // 
-            this.tasksBindingSource.DataMember = "Tasks";
-            this.tasksBindingSource.DataSource = this.dsCharacter;
-            // 
-            // idDataGridViewTextBoxColumn5
-            // 
-            this.idDataGridViewTextBoxColumn5.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn5.HeaderText = "id";
-            this.idDataGridViewTextBoxColumn5.MinimumWidth = 6;
-            this.idDataGridViewTextBoxColumn5.Name = "idDataGridViewTextBoxColumn5";
-            this.idDataGridViewTextBoxColumn5.ReadOnly = true;
-            this.idDataGridViewTextBoxColumn5.Width = 48;
-            // 
-            // nameDataGridViewTextBoxColumn3
-            // 
-            this.nameDataGridViewTextBoxColumn3.DataPropertyName = "name";
-            this.nameDataGridViewTextBoxColumn3.HeaderText = "name";
-            this.nameDataGridViewTextBoxColumn3.MinimumWidth = 6;
-            this.nameDataGridViewTextBoxColumn3.Name = "nameDataGridViewTextBoxColumn3";
-            this.nameDataGridViewTextBoxColumn3.ReadOnly = true;
-            this.nameDataGridViewTextBoxColumn3.Width = 72;
-            // 
-            // descriptionDataGridViewTextBoxColumn2
-            // 
-            this.descriptionDataGridViewTextBoxColumn2.DataPropertyName = "description";
-            this.descriptionDataGridViewTextBoxColumn2.HeaderText = "description";
-            this.descriptionDataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.descriptionDataGridViewTextBoxColumn2.Name = "descriptionDataGridViewTextBoxColumn2";
-            this.descriptionDataGridViewTextBoxColumn2.Width = 106;
-            // 
-            // stateDataGridViewTextBoxColumn1
-            // 
-            this.stateDataGridViewTextBoxColumn1.DataPropertyName = "state";
-            this.stateDataGridViewTextBoxColumn1.HeaderText = "state";
-            this.stateDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.stateDataGridViewTextBoxColumn1.Name = "stateDataGridViewTextBoxColumn1";
-            this.stateDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.stateDataGridViewTextBoxColumn1.Width = 68;
-            // 
             // ProducerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1326,26 +1331,26 @@
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataScenarioAdd)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataScenario)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataChar)).EndInit();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataStaff)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataWork)).EndInit();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataTasksAdd)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataTasks)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.scenarioAddBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsCharacter)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataScenario)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.scenarioBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataChar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.characterBindingSource)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.staffUseBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataStaff)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.staffBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataWork)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.workSheetBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tasksAddBindingSource)).EndInit();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTasks)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tasksBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTasksAdd)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tasksAddBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1429,14 +1434,7 @@
         private System.Windows.Forms.DataGridView dataWork;
         private System.Windows.Forms.Button sDeny;
         private System.Windows.Forms.Button sAccept;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn staffDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn infoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn stateDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn aboutDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn contactsDataGridViewTextBoxColumn;
-        private System.Windows.Forms.BindingSource workSheetBindingSource;
         private System.Windows.Forms.Button sWait;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn3;
@@ -1459,5 +1457,12 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn descriptionDataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn stateDataGridViewTextBoxColumn1;
         private System.Windows.Forms.BindingSource tasksBindingSource;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn staffDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn infoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn stateDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn contactsDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource workSheetBindingSource;
     }
 }

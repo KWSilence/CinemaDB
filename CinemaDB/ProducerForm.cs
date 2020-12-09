@@ -293,6 +293,9 @@ namespace CinemaDB
             }
 
             initCreateFilm();
+            initFilms();
+            initStaff();
+            initTask();
             MessageBox.Show("Film created", "Success", MessageBoxButtons.OK);  
         }
 
