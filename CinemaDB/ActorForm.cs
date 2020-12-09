@@ -189,14 +189,14 @@ namespace CinemaDB
             String state = dataForms.SelectedRows[0].Cells[6].Value.ToString();
             if (state == "withdraw")
             {
-                OleDbCommand d = new OleDbCommand("update WorksheetInfo set state_id = " + 2 + " where id = (select Worksheet.info_id from Worksheet where staff_id=" + staffID + " and person_id=" + thisID + ")", cn);
-                d.ExecuteNonQuery();
+                OleDbCommand dd = new OleDbCommand("update WorksheetInfo set state_id = " + 2 + " where id = (select Worksheet.info_id from Worksheet where staff_id=" + staffID + " and person_id=" + thisID + ")", cn);
+                dd.ExecuteNonQuery();
                 initWork();
             }
             if (state == "wait")
             {
-                OleDbCommand d = new OleDbCommand("update WorksheetInfo set state_id = " + 5 + " where id = (select Worksheet.info_id from Worksheet where staff_id=" + staffID + " and person_id=" + thisID + ")", cn);
-                d.ExecuteNonQuery();
+                OleDbCommand dd = new OleDbCommand("update WorksheetInfo set state_id = " + 5 + " where id = (select Worksheet.info_id from Worksheet where staff_id=" + staffID + " and person_id=" + thisID + ")", cn);
+                dd.ExecuteNonQuery();
                 initWork();
             }
         }

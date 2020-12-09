@@ -42,52 +42,9 @@
             this.labelPost = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.button3 = new System.Windows.Forms.Button();
-            this.decorCount = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.dataDecorList = new System.Windows.Forms.DataGridView();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dataSceneDecor = new System.Windows.Forms.DataGridView();
-            this.label5 = new System.Windows.Forms.Label();
-            this.dataScene = new System.Windows.Forms.DataGridView();
-            this.label2 = new System.Windows.Forms.Label();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.sFilm = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.sName = new System.Windows.Forms.TextBox();
-            this.sDesc = new System.Windows.Forms.TextBox();
-            this.sBudget = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label12 = new System.Windows.Forms.Label();
-            this.dataGridView4 = new System.Windows.Forms.DataGridView();
-            this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.budgetLabel = new System.Windows.Forms.Label();
-            this.decorTypes = new System.Windows.Forms.ComboBox();
-            this.minCost = new System.Windows.Forms.TextBox();
-            this.maxCost = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.label16 = new System.Windows.Forms.Label();
-            this.dataScenePlace = new System.Windows.Forms.DataGridView();
-            this.label17 = new System.Windows.Forms.Label();
-            this.dataPalce = new System.Windows.Forms.DataGridView();
-            this.button10 = new System.Windows.Forms.Button();
-            this.label19 = new System.Windows.Forms.Label();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.rentDuration = new System.Windows.Forms.TextBox();
-            this.button9 = new System.Windows.Forms.Button();
-            this.pBudget = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.idDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.filmDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -95,12 +52,40 @@
             this.budgetDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sceneBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.dsCharacter = new CinemaDB.dsCharacter();
+            this.label12 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.sBudget = new System.Windows.Forms.TextBox();
+            this.sDesc = new System.Windows.Forms.TextBox();
+            this.sName = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.sFilm = new System.Windows.Forms.ComboBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button8 = new System.Windows.Forms.Button();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.maxCost = new System.Windows.Forms.TextBox();
+            this.minCost = new System.Windows.Forms.TextBox();
+            this.decorTypes = new System.Windows.Forms.ComboBox();
+            this.budgetLabel = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.decorCount = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.dataDecorList = new System.Windows.Forms.DataGridView();
             this.idDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.typeDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.specDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.costDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.decorBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.label6 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.dataSceneDecor = new System.Windows.Forms.DataGridView();
             this.idDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.typeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -108,52 +93,67 @@
             this.costDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.quantityDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sceneDecorBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.label5 = new System.Windows.Forms.Label();
+            this.dataScene = new System.Windows.Forms.DataGridView();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.filmDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sceneBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.label2 = new System.Windows.Forms.Label();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.maxPlace = new System.Windows.Forms.TextBox();
+            this.minPlace = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.button11 = new System.Windows.Forms.Button();
+            this.label18 = new System.Windows.Forms.Label();
+            this.pBudget = new System.Windows.Forms.Label();
+            this.button9 = new System.Windows.Forms.Button();
+            this.rentDuration = new System.Windows.Forms.TextBox();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.nameDataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descriptionDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.rentDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.durationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.scenePlaceBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.idDataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.descriptionDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.filmDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.budgetDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.placeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.label19 = new System.Windows.Forms.Label();
+            this.button10 = new System.Windows.Forms.Button();
+            this.dataPalce = new System.Windows.Forms.DataGridView();
             this.idDataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descriptionDataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.addressDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.rentDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button11 = new System.Windows.Forms.Button();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.minPlace = new System.Windows.Forms.TextBox();
-            this.maxPlace = new System.Windows.Forms.TextBox();
+            this.placeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.label17 = new System.Windows.Forms.Label();
+            this.dataScenePlace = new System.Windows.Forms.DataGridView();
+            this.idDataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descriptionDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.filmDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.budgetDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label16 = new System.Windows.Forms.Label();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataDecorList)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataSceneDecor)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataScene)).BeginInit();
-            this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataScenePlace)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataPalce)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sceneBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsCharacter)).BeginInit();
+            this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataDecorList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.decorBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSceneDecor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sceneDecorBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataScene)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sceneBindingSource)).BeginInit();
+            this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.scenePlaceBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataPalce)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.placeBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataScenePlace)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl
@@ -166,7 +166,7 @@
             this.tabControl.Location = new System.Drawing.Point(0, 0);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(989, 467);
+            this.tabControl.Size = new System.Drawing.Size(932, 474);
             this.tabControl.TabIndex = 0;
             // 
             // tabPage1
@@ -184,7 +184,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(906, 433);
+            this.tabPage1.Size = new System.Drawing.Size(869, 438);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Profile";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -215,7 +215,7 @@
             // profileExit
             // 
             this.profileExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.profileExit.Location = new System.Drawing.Point(823, 388);
+            this.profileExit.Location = new System.Drawing.Point(711, 388);
             this.profileExit.Name = "profileExit";
             this.profileExit.Size = new System.Drawing.Size(75, 30);
             this.profileExit.TabIndex = 23;
@@ -232,7 +232,7 @@
             this.profileAbout.Multiline = true;
             this.profileAbout.Name = "profileAbout";
             this.profileAbout.ReadOnly = true;
-            this.profileAbout.Size = new System.Drawing.Size(820, 240);
+            this.profileAbout.Size = new System.Drawing.Size(708, 240);
             this.profileAbout.TabIndex = 20;
             // 
             // profileContact
@@ -242,7 +242,7 @@
             this.profileContact.Location = new System.Drawing.Point(78, 92);
             this.profileContact.Name = "profileContact";
             this.profileContact.ReadOnly = true;
-            this.profileContact.Size = new System.Drawing.Size(820, 22);
+            this.profileContact.Size = new System.Drawing.Size(708, 22);
             this.profileContact.TabIndex = 21;
             // 
             // profileName
@@ -252,7 +252,7 @@
             this.profileName.Location = new System.Drawing.Point(78, 52);
             this.profileName.Name = "profileName";
             this.profileName.ReadOnly = true;
-            this.profileName.Size = new System.Drawing.Size(820, 22);
+            this.profileName.Size = new System.Drawing.Size(708, 22);
             this.profileName.TabIndex = 22;
             // 
             // label4
@@ -309,330 +309,32 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(981, 438);
+            this.tabPage2.Size = new System.Drawing.Size(924, 445);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Scene";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // tabPage3
+            // button7
             // 
-            this.tabPage3.Controls.Add(this.button8);
-            this.tabPage3.Controls.Add(this.label15);
-            this.tabPage3.Controls.Add(this.label14);
-            this.tabPage3.Controls.Add(this.label13);
-            this.tabPage3.Controls.Add(this.maxCost);
-            this.tabPage3.Controls.Add(this.minCost);
-            this.tabPage3.Controls.Add(this.decorTypes);
-            this.tabPage3.Controls.Add(this.budgetLabel);
-            this.tabPage3.Controls.Add(this.button3);
-            this.tabPage3.Controls.Add(this.decorCount);
-            this.tabPage3.Controls.Add(this.label7);
-            this.tabPage3.Controls.Add(this.dataDecorList);
-            this.tabPage3.Controls.Add(this.label6);
-            this.tabPage3.Controls.Add(this.button4);
-            this.tabPage3.Controls.Add(this.button2);
-            this.tabPage3.Controls.Add(this.button1);
-            this.tabPage3.Controls.Add(this.dataSceneDecor);
-            this.tabPage3.Controls.Add(this.label5);
-            this.tabPage3.Controls.Add(this.dataScene);
-            this.tabPage3.Controls.Add(this.label2);
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(981, 438);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Decoration";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button7.Location = new System.Drawing.Point(751, 407);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(86, 30);
+            this.button7.TabIndex = 11;
+            this.button7.Text = "Refresh";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.resetSceneEdit);
             // 
-            // button3
+            // button6
             // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.Location = new System.Drawing.Point(898, 393);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 30);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Add";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.addDecor);
-            // 
-            // decorCount
-            // 
-            this.decorCount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.decorCount.Location = new System.Drawing.Point(575, 393);
-            this.decorCount.Name = "decorCount";
-            this.decorCount.Size = new System.Drawing.Size(317, 22);
-            this.decorCount.TabIndex = 9;
-            // 
-            // label7
-            // 
-            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(524, 396);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(45, 17);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "Count";
-            // 
-            // dataDecorList
-            // 
-            this.dataDecorList.AllowUserToAddRows = false;
-            this.dataDecorList.AllowUserToDeleteRows = false;
-            this.dataDecorList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataDecorList.AutoGenerateColumns = false;
-            this.dataDecorList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.dataDecorList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataDecorList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn2,
-            this.typeDataGridViewTextBoxColumn1,
-            this.nameDataGridViewTextBoxColumn2,
-            this.specDataGridViewTextBoxColumn1,
-            this.costDataGridViewTextBoxColumn1});
-            this.dataDecorList.DataSource = this.decorBindingSource;
-            this.dataDecorList.Location = new System.Drawing.Point(527, 92);
-            this.dataDecorList.MultiSelect = false;
-            this.dataDecorList.Name = "dataDecorList";
-            this.dataDecorList.ReadOnly = true;
-            this.dataDecorList.RowHeadersWidth = 51;
-            this.dataDecorList.RowTemplate.Height = 24;
-            this.dataDecorList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataDecorList.Size = new System.Drawing.Size(446, 295);
-            this.dataDecorList.TabIndex = 7;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(524, 16);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(68, 17);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "DecorList";
-            // 
-            // button2
-            // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button2.Location = new System.Drawing.Point(92, 393);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 30);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Reset";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.resetSceneDecorEdit);
-            // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button1.Location = new System.Drawing.Point(11, 393);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 30);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Edit";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.editSceneDecor);
-            // 
-            // dataSceneDecor
-            // 
-            this.dataSceneDecor.AllowUserToAddRows = false;
-            this.dataSceneDecor.AllowUserToDeleteRows = false;
-            this.dataSceneDecor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.dataSceneDecor.AutoGenerateColumns = false;
-            this.dataSceneDecor.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.dataSceneDecor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataSceneDecor.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn1,
-            this.typeDataGridViewTextBoxColumn,
-            this.nameDataGridViewTextBoxColumn1,
-            this.specDataGridViewTextBoxColumn,
-            this.costDataGridViewTextBoxColumn,
-            this.quantityDataGridViewTextBoxColumn});
-            this.dataSceneDecor.DataSource = this.sceneDecorBindingSource;
-            this.dataSceneDecor.Location = new System.Drawing.Point(11, 179);
-            this.dataSceneDecor.MultiSelect = false;
-            this.dataSceneDecor.Name = "dataSceneDecor";
-            this.dataSceneDecor.RowHeadersWidth = 51;
-            this.dataSceneDecor.RowTemplate.Height = 24;
-            this.dataSceneDecor.Size = new System.Drawing.Size(509, 208);
-            this.dataSceneDecor.TabIndex = 3;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(8, 159);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 17);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "SceneDecor";
-            // 
-            // dataScene
-            // 
-            this.dataScene.AllowUserToAddRows = false;
-            this.dataScene.AllowUserToDeleteRows = false;
-            this.dataScene.AutoGenerateColumns = false;
-            this.dataScene.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.dataScene.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataScene.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn,
-            this.filmDataGridViewTextBoxColumn,
-            this.nameDataGridViewTextBoxColumn,
-            this.descriptionDataGridViewTextBoxColumn});
-            this.dataScene.DataSource = this.sceneBindingSource;
-            this.dataScene.Location = new System.Drawing.Point(11, 36);
-            this.dataScene.MultiSelect = false;
-            this.dataScene.Name = "dataScene";
-            this.dataScene.ReadOnly = true;
-            this.dataScene.RowHeadersWidth = 51;
-            this.dataScene.RowTemplate.Height = 24;
-            this.dataScene.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataScene.Size = new System.Drawing.Size(509, 111);
-            this.dataScene.TabIndex = 1;
-            this.dataScene.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.getSceneDecor);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(8, 16);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 17);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Scene";
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Controls.Add(this.maxPlace);
-            this.tabPage4.Controls.Add(this.minPlace);
-            this.tabPage4.Controls.Add(this.label21);
-            this.tabPage4.Controls.Add(this.label20);
-            this.tabPage4.Controls.Add(this.button11);
-            this.tabPage4.Controls.Add(this.label18);
-            this.tabPage4.Controls.Add(this.pBudget);
-            this.tabPage4.Controls.Add(this.button9);
-            this.tabPage4.Controls.Add(this.rentDuration);
-            this.tabPage4.Controls.Add(this.dataGridView3);
-            this.tabPage4.Controls.Add(this.label19);
-            this.tabPage4.Controls.Add(this.button10);
-            this.tabPage4.Controls.Add(this.dataPalce);
-            this.tabPage4.Controls.Add(this.label17);
-            this.tabPage4.Controls.Add(this.dataScenePlace);
-            this.tabPage4.Controls.Add(this.label16);
-            this.tabPage4.Location = new System.Drawing.Point(4, 25);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(981, 438);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Place";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button4.Location = new System.Drawing.Point(173, 393);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 30);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Delete";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.deleteDecor);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(8, 13);
-            this.label8.MinimumSize = new System.Drawing.Size(83, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(83, 17);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Film:";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // sFilm
-            // 
-            this.sFilm.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.sFilm.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.sFilm.FormattingEnabled = true;
-            this.sFilm.Location = new System.Drawing.Point(97, 10);
-            this.sFilm.Name = "sFilm";
-            this.sFilm.Size = new System.Drawing.Size(876, 24);
-            this.sFilm.TabIndex = 1;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(8, 43);
-            this.label9.MinimumSize = new System.Drawing.Size(83, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(83, 17);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "Name:";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(8, 71);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(83, 17);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "Description:";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(8, 99);
-            this.label11.MinimumSize = new System.Drawing.Size(83, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(83, 17);
-            this.label11.TabIndex = 4;
-            this.label11.Text = "Budget:";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // sName
-            // 
-            this.sName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.sName.Location = new System.Drawing.Point(97, 40);
-            this.sName.Name = "sName";
-            this.sName.Size = new System.Drawing.Size(876, 22);
-            this.sName.TabIndex = 5;
-            // 
-            // sDesc
-            // 
-            this.sDesc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.sDesc.Location = new System.Drawing.Point(97, 68);
-            this.sDesc.Name = "sDesc";
-            this.sDesc.Size = new System.Drawing.Size(876, 22);
-            this.sDesc.TabIndex = 6;
-            // 
-            // sBudget
-            // 
-            this.sBudget.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.sBudget.Location = new System.Drawing.Point(97, 96);
-            this.sBudget.Name = "sBudget";
-            this.sBudget.Size = new System.Drawing.Size(876, 22);
-            this.sBudget.TabIndex = 7;
-            // 
-            // button5
-            // 
-            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button5.Location = new System.Drawing.Point(898, 124);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 30);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "Create";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.createScene);
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(8, 155);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(48, 17);
-            this.label12.TabIndex = 9;
-            this.label12.Text = "Scene";
+            this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button6.Location = new System.Drawing.Point(843, 407);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 30);
+            this.button6.TabIndex = 11;
+            this.button6.Text = "Edit";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.editScene);
             // 
             // dataGridView4
             // 
@@ -655,258 +357,8 @@
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.RowHeadersWidth = 51;
             this.dataGridView4.RowTemplate.Height = 24;
-            this.dataGridView4.Size = new System.Drawing.Size(962, 219);
+            this.dataGridView4.Size = new System.Drawing.Size(905, 226);
             this.dataGridView4.TabIndex = 10;
-            // 
-            // button6
-            // 
-            this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button6.Location = new System.Drawing.Point(900, 400);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 30);
-            this.button6.TabIndex = 11;
-            this.button6.Text = "Edit";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.editScene);
-            // 
-            // button7
-            // 
-            this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button7.Location = new System.Drawing.Point(819, 400);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 30);
-            this.button7.TabIndex = 11;
-            this.button7.Text = "Reset";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.resetSceneEdit);
-            // 
-            // budgetLabel
-            // 
-            this.budgetLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.budgetLabel.AutoSize = true;
-            this.budgetLabel.Location = new System.Drawing.Point(254, 400);
-            this.budgetLabel.Name = "budgetLabel";
-            this.budgetLabel.Size = new System.Drawing.Size(57, 17);
-            this.budgetLabel.TabIndex = 11;
-            this.budgetLabel.Text = "Budget:";
-            // 
-            // decorTypes
-            // 
-            this.decorTypes.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.decorTypes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.decorTypes.FormattingEnabled = true;
-            this.decorTypes.Location = new System.Drawing.Point(739, 62);
-            this.decorTypes.Name = "decorTypes";
-            this.decorTypes.Size = new System.Drawing.Size(234, 24);
-            this.decorTypes.TabIndex = 13;
-            // 
-            // minCost
-            // 
-            this.minCost.Location = new System.Drawing.Point(526, 64);
-            this.minCost.Name = "minCost";
-            this.minCost.Size = new System.Drawing.Size(100, 22);
-            this.minCost.TabIndex = 14;
-            // 
-            // maxCost
-            // 
-            this.maxCost.Location = new System.Drawing.Point(633, 64);
-            this.maxCost.Name = "maxCost";
-            this.maxCost.Size = new System.Drawing.Size(100, 22);
-            this.maxCost.TabIndex = 15;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(736, 44);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(35, 17);
-            this.label13.TabIndex = 16;
-            this.label13.Text = "type";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(526, 44);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(36, 17);
-            this.label14.TabIndex = 17;
-            this.label14.Text = "from";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(632, 46);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(20, 17);
-            this.label15.TabIndex = 18;
-            this.label15.Text = "to";
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(598, 13);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 30);
-            this.button8.TabIndex = 19;
-            this.button8.Text = "filter";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.filter);
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(8, 14);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(48, 17);
-            this.label16.TabIndex = 0;
-            this.label16.Text = "Scene";
-            // 
-            // dataScenePlace
-            // 
-            this.dataScenePlace.AllowUserToAddRows = false;
-            this.dataScenePlace.AllowUserToDeleteRows = false;
-            this.dataScenePlace.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.dataScenePlace.AutoGenerateColumns = false;
-            this.dataScenePlace.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.dataScenePlace.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataScenePlace.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn4,
-            this.nameDataGridViewTextBoxColumn4,
-            this.descriptionDataGridViewTextBoxColumn2,
-            this.filmDataGridViewTextBoxColumn2,
-            this.budgetDataGridViewTextBoxColumn1});
-            this.dataScenePlace.DataSource = this.sceneBindingSource;
-            this.dataScenePlace.Location = new System.Drawing.Point(11, 34);
-            this.dataScenePlace.MultiSelect = false;
-            this.dataScenePlace.Name = "dataScenePlace";
-            this.dataScenePlace.ReadOnly = true;
-            this.dataScenePlace.RowHeadersWidth = 51;
-            this.dataScenePlace.RowTemplate.Height = 24;
-            this.dataScenePlace.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataScenePlace.Size = new System.Drawing.Size(481, 250);
-            this.dataScenePlace.TabIndex = 1;
-            this.dataScenePlace.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.getPlaceByScene);
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(495, 14);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(43, 17);
-            this.label17.TabIndex = 2;
-            this.label17.Text = "Place";
-            // 
-            // dataPalce
-            // 
-            this.dataPalce.AllowUserToAddRows = false;
-            this.dataPalce.AllowUserToDeleteRows = false;
-            this.dataPalce.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataPalce.AutoGenerateColumns = false;
-            this.dataPalce.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.dataPalce.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataPalce.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn5,
-            this.nameDataGridViewTextBoxColumn6,
-            this.descriptionDataGridViewTextBoxColumn4,
-            this.addressDataGridViewTextBoxColumn1,
-            this.rentDataGridViewTextBoxColumn1});
-            this.dataPalce.DataSource = this.placeBindingSource;
-            this.dataPalce.Location = new System.Drawing.Point(498, 47);
-            this.dataPalce.MultiSelect = false;
-            this.dataPalce.Name = "dataPalce";
-            this.dataPalce.ReadOnly = true;
-            this.dataPalce.RowHeadersWidth = 51;
-            this.dataPalce.RowTemplate.Height = 24;
-            this.dataPalce.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataPalce.Size = new System.Drawing.Size(475, 347);
-            this.dataPalce.TabIndex = 3;
-            // 
-            // button10
-            // 
-            this.button10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button10.Location = new System.Drawing.Point(11, 400);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 30);
-            this.button10.TabIndex = 7;
-            this.button10.Text = "Reset";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.resetPlace);
-            // 
-            // label19
-            // 
-            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(495, 403);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(66, 17);
-            this.label19.TabIndex = 8;
-            this.label19.Text = "Duration:";
-            // 
-            // dataGridView3
-            // 
-            this.dataGridView3.AllowUserToAddRows = false;
-            this.dataGridView3.AllowUserToDeleteRows = false;
-            this.dataGridView3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.dataGridView3.AutoGenerateColumns = false;
-            this.dataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.nameDataGridViewTextBoxColumn5,
-            this.descriptionDataGridViewTextBoxColumn3,
-            this.addressDataGridViewTextBoxColumn,
-            this.rentDataGridViewTextBoxColumn,
-            this.durationDataGridViewTextBoxColumn});
-            this.dataGridView3.DataSource = this.scenePlaceBindingSource;
-            this.dataGridView3.Location = new System.Drawing.Point(11, 307);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.ReadOnly = true;
-            this.dataGridView3.RowHeadersWidth = 51;
-            this.dataGridView3.RowTemplate.Height = 24;
-            this.dataGridView3.Size = new System.Drawing.Size(481, 87);
-            this.dataGridView3.TabIndex = 9;
-            // 
-            // rentDuration
-            // 
-            this.rentDuration.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.rentDuration.Location = new System.Drawing.Point(567, 400);
-            this.rentDuration.Name = "rentDuration";
-            this.rentDuration.Size = new System.Drawing.Size(325, 22);
-            this.rentDuration.TabIndex = 10;
-            // 
-            // button9
-            // 
-            this.button9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button9.Location = new System.Drawing.Point(898, 400);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 30);
-            this.button9.TabIndex = 11;
-            this.button9.Text = "Set";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.setScenePlace);
-            // 
-            // pBudget
-            // 
-            this.pBudget.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.pBudget.AutoSize = true;
-            this.pBudget.Location = new System.Drawing.Point(92, 407);
-            this.pBudget.Name = "pBudget";
-            this.pBudget.Size = new System.Drawing.Size(57, 17);
-            this.pBudget.TabIndex = 12;
-            this.pBudget.Text = "Budget:";
-            // 
-            // label18
-            // 
-            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(8, 287);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(63, 17);
-            this.label18.TabIndex = 13;
-            this.label18.Text = "Selected";
             // 
             // idDataGridViewTextBoxColumn3
             // 
@@ -960,6 +412,264 @@
             this.dsCharacter.DataSetName = "dsCharacter";
             this.dsCharacter.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(8, 155);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(48, 17);
+            this.label12.TabIndex = 9;
+            this.label12.Text = "Scene";
+            // 
+            // button5
+            // 
+            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button5.Location = new System.Drawing.Point(841, 124);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 30);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "Create";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.createScene);
+            // 
+            // sBudget
+            // 
+            this.sBudget.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.sBudget.Location = new System.Drawing.Point(97, 96);
+            this.sBudget.Name = "sBudget";
+            this.sBudget.Size = new System.Drawing.Size(819, 22);
+            this.sBudget.TabIndex = 7;
+            // 
+            // sDesc
+            // 
+            this.sDesc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.sDesc.Location = new System.Drawing.Point(97, 68);
+            this.sDesc.Name = "sDesc";
+            this.sDesc.Size = new System.Drawing.Size(819, 22);
+            this.sDesc.TabIndex = 6;
+            // 
+            // sName
+            // 
+            this.sName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.sName.Location = new System.Drawing.Point(97, 40);
+            this.sName.Name = "sName";
+            this.sName.Size = new System.Drawing.Size(819, 22);
+            this.sName.TabIndex = 5;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(8, 99);
+            this.label11.MinimumSize = new System.Drawing.Size(83, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(83, 17);
+            this.label11.TabIndex = 4;
+            this.label11.Text = "Budget:";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(8, 71);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(83, 17);
+            this.label10.TabIndex = 3;
+            this.label10.Text = "Description:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(8, 43);
+            this.label9.MinimumSize = new System.Drawing.Size(83, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(83, 17);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "Name:";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // sFilm
+            // 
+            this.sFilm.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.sFilm.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.sFilm.FormattingEnabled = true;
+            this.sFilm.Location = new System.Drawing.Point(97, 10);
+            this.sFilm.Name = "sFilm";
+            this.sFilm.Size = new System.Drawing.Size(819, 24);
+            this.sFilm.TabIndex = 1;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(8, 13);
+            this.label8.MinimumSize = new System.Drawing.Size(83, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(83, 17);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Film:";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.button8);
+            this.tabPage3.Controls.Add(this.label15);
+            this.tabPage3.Controls.Add(this.label14);
+            this.tabPage3.Controls.Add(this.label13);
+            this.tabPage3.Controls.Add(this.maxCost);
+            this.tabPage3.Controls.Add(this.minCost);
+            this.tabPage3.Controls.Add(this.decorTypes);
+            this.tabPage3.Controls.Add(this.budgetLabel);
+            this.tabPage3.Controls.Add(this.button3);
+            this.tabPage3.Controls.Add(this.decorCount);
+            this.tabPage3.Controls.Add(this.label7);
+            this.tabPage3.Controls.Add(this.dataDecorList);
+            this.tabPage3.Controls.Add(this.label6);
+            this.tabPage3.Controls.Add(this.button4);
+            this.tabPage3.Controls.Add(this.button2);
+            this.tabPage3.Controls.Add(this.button1);
+            this.tabPage3.Controls.Add(this.dataSceneDecor);
+            this.tabPage3.Controls.Add(this.label5);
+            this.tabPage3.Controls.Add(this.dataScene);
+            this.tabPage3.Controls.Add(this.label2);
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(924, 445);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Decoration";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(598, 13);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 30);
+            this.button8.TabIndex = 19;
+            this.button8.Text = "filter";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.filter);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(632, 46);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(20, 17);
+            this.label15.TabIndex = 18;
+            this.label15.Text = "to";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(526, 44);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(36, 17);
+            this.label14.TabIndex = 17;
+            this.label14.Text = "from";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(736, 44);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(35, 17);
+            this.label13.TabIndex = 16;
+            this.label13.Text = "type";
+            // 
+            // maxCost
+            // 
+            this.maxCost.Location = new System.Drawing.Point(633, 64);
+            this.maxCost.Name = "maxCost";
+            this.maxCost.Size = new System.Drawing.Size(100, 22);
+            this.maxCost.TabIndex = 15;
+            // 
+            // minCost
+            // 
+            this.minCost.Location = new System.Drawing.Point(526, 64);
+            this.minCost.Name = "minCost";
+            this.minCost.Size = new System.Drawing.Size(100, 22);
+            this.minCost.TabIndex = 14;
+            // 
+            // decorTypes
+            // 
+            this.decorTypes.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.decorTypes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.decorTypes.FormattingEnabled = true;
+            this.decorTypes.Location = new System.Drawing.Point(739, 62);
+            this.decorTypes.Name = "decorTypes";
+            this.decorTypes.Size = new System.Drawing.Size(177, 24);
+            this.decorTypes.TabIndex = 13;
+            // 
+            // budgetLabel
+            // 
+            this.budgetLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.budgetLabel.AutoSize = true;
+            this.budgetLabel.Location = new System.Drawing.Point(265, 407);
+            this.budgetLabel.Name = "budgetLabel";
+            this.budgetLabel.Size = new System.Drawing.Size(57, 17);
+            this.budgetLabel.TabIndex = 11;
+            this.budgetLabel.Text = "Budget:";
+            // 
+            // button3
+            // 
+            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button3.Location = new System.Drawing.Point(841, 400);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 30);
+            this.button3.TabIndex = 10;
+            this.button3.Text = "Add";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.addDecor);
+            // 
+            // decorCount
+            // 
+            this.decorCount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.decorCount.Location = new System.Drawing.Point(575, 400);
+            this.decorCount.Name = "decorCount";
+            this.decorCount.Size = new System.Drawing.Size(260, 22);
+            this.decorCount.TabIndex = 9;
+            // 
+            // label7
+            // 
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(524, 403);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(45, 17);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "Count";
+            // 
+            // dataDecorList
+            // 
+            this.dataDecorList.AllowUserToAddRows = false;
+            this.dataDecorList.AllowUserToDeleteRows = false;
+            this.dataDecorList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataDecorList.AutoGenerateColumns = false;
+            this.dataDecorList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataDecorList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataDecorList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn2,
+            this.typeDataGridViewTextBoxColumn1,
+            this.nameDataGridViewTextBoxColumn2,
+            this.specDataGridViewTextBoxColumn1,
+            this.costDataGridViewTextBoxColumn1});
+            this.dataDecorList.DataSource = this.decorBindingSource;
+            this.dataDecorList.Location = new System.Drawing.Point(527, 92);
+            this.dataDecorList.MultiSelect = false;
+            this.dataDecorList.Name = "dataDecorList";
+            this.dataDecorList.ReadOnly = true;
+            this.dataDecorList.RowHeadersWidth = 51;
+            this.dataDecorList.RowTemplate.Height = 24;
+            this.dataDecorList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataDecorList.Size = new System.Drawing.Size(389, 302);
+            this.dataDecorList.TabIndex = 7;
+            // 
             // idDataGridViewTextBoxColumn2
             // 
             this.idDataGridViewTextBoxColumn2.DataPropertyName = "id";
@@ -1009,6 +719,73 @@
             // 
             this.decorBindingSource.DataMember = "Decor";
             this.decorBindingSource.DataSource = this.dsCharacter;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(524, 16);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(68, 17);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "DecorList";
+            // 
+            // button4
+            // 
+            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button4.Location = new System.Drawing.Point(184, 400);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 30);
+            this.button4.TabIndex = 5;
+            this.button4.Text = "Delete";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.deleteDecor);
+            // 
+            // button2
+            // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button2.Location = new System.Drawing.Point(92, 400);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(86, 30);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Refresh";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.resetSceneDecorEdit);
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button1.Location = new System.Drawing.Point(11, 400);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 30);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Edit";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.editSceneDecor);
+            // 
+            // dataSceneDecor
+            // 
+            this.dataSceneDecor.AllowUserToAddRows = false;
+            this.dataSceneDecor.AllowUserToDeleteRows = false;
+            this.dataSceneDecor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.dataSceneDecor.AutoGenerateColumns = false;
+            this.dataSceneDecor.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataSceneDecor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataSceneDecor.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn1,
+            this.typeDataGridViewTextBoxColumn,
+            this.nameDataGridViewTextBoxColumn1,
+            this.specDataGridViewTextBoxColumn,
+            this.costDataGridViewTextBoxColumn,
+            this.quantityDataGridViewTextBoxColumn});
+            this.dataSceneDecor.DataSource = this.sceneDecorBindingSource;
+            this.dataSceneDecor.Location = new System.Drawing.Point(11, 179);
+            this.dataSceneDecor.MultiSelect = false;
+            this.dataSceneDecor.Name = "dataSceneDecor";
+            this.dataSceneDecor.RowHeadersWidth = 51;
+            this.dataSceneDecor.RowTemplate.Height = 24;
+            this.dataSceneDecor.Size = new System.Drawing.Size(509, 215);
+            this.dataSceneDecor.TabIndex = 3;
             // 
             // idDataGridViewTextBoxColumn1
             // 
@@ -1068,6 +845,39 @@
             this.sceneDecorBindingSource.DataMember = "SceneDecor";
             this.sceneDecorBindingSource.DataSource = this.dsCharacter;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(8, 159);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(86, 17);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "SceneDecor";
+            // 
+            // dataScene
+            // 
+            this.dataScene.AllowUserToAddRows = false;
+            this.dataScene.AllowUserToDeleteRows = false;
+            this.dataScene.AutoGenerateColumns = false;
+            this.dataScene.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataScene.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataScene.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn,
+            this.filmDataGridViewTextBoxColumn,
+            this.nameDataGridViewTextBoxColumn,
+            this.descriptionDataGridViewTextBoxColumn});
+            this.dataScene.DataSource = this.sceneBindingSource;
+            this.dataScene.Location = new System.Drawing.Point(11, 36);
+            this.dataScene.MultiSelect = false;
+            this.dataScene.Name = "dataScene";
+            this.dataScene.ReadOnly = true;
+            this.dataScene.RowHeadersWidth = 51;
+            this.dataScene.RowTemplate.Height = 24;
+            this.dataScene.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataScene.Size = new System.Drawing.Size(509, 111);
+            this.dataScene.TabIndex = 1;
+            this.dataScene.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.getSceneDecor);
+            // 
             // idDataGridViewTextBoxColumn
             // 
             this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
@@ -1108,6 +918,147 @@
             // 
             this.sceneBindingSource.DataMember = "Scene";
             this.sceneBindingSource.DataSource = this.dsCharacter;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(8, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(48, 17);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Scene";
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.maxPlace);
+            this.tabPage4.Controls.Add(this.minPlace);
+            this.tabPage4.Controls.Add(this.label21);
+            this.tabPage4.Controls.Add(this.label20);
+            this.tabPage4.Controls.Add(this.button11);
+            this.tabPage4.Controls.Add(this.label18);
+            this.tabPage4.Controls.Add(this.pBudget);
+            this.tabPage4.Controls.Add(this.button9);
+            this.tabPage4.Controls.Add(this.rentDuration);
+            this.tabPage4.Controls.Add(this.dataGridView3);
+            this.tabPage4.Controls.Add(this.label19);
+            this.tabPage4.Controls.Add(this.button10);
+            this.tabPage4.Controls.Add(this.dataPalce);
+            this.tabPage4.Controls.Add(this.label17);
+            this.tabPage4.Controls.Add(this.dataScenePlace);
+            this.tabPage4.Controls.Add(this.label16);
+            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(924, 445);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Place";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // maxPlace
+            // 
+            this.maxPlace.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.maxPlace.Location = new System.Drawing.Point(790, 14);
+            this.maxPlace.Name = "maxPlace";
+            this.maxPlace.Size = new System.Drawing.Size(126, 22);
+            this.maxPlace.TabIndex = 18;
+            // 
+            // minPlace
+            // 
+            this.minPlace.Location = new System.Drawing.Point(671, 14);
+            this.minPlace.Name = "minPlace";
+            this.minPlace.Size = new System.Drawing.Size(82, 22);
+            this.minPlace.TabIndex = 17;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(759, 18);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(25, 17);
+            this.label21.TabIndex = 16;
+            this.label21.Text = "To";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(625, 17);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(40, 17);
+            this.label20.TabIndex = 15;
+            this.label20.Text = "From";
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(544, 11);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(75, 30);
+            this.button11.TabIndex = 14;
+            this.button11.Text = "Filter";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.palceFilter);
+            // 
+            // label18
+            // 
+            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(8, 294);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(63, 17);
+            this.label18.TabIndex = 13;
+            this.label18.Text = "Selected";
+            // 
+            // pBudget
+            // 
+            this.pBudget.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.pBudget.AutoSize = true;
+            this.pBudget.Location = new System.Drawing.Point(103, 414);
+            this.pBudget.Name = "pBudget";
+            this.pBudget.Size = new System.Drawing.Size(57, 17);
+            this.pBudget.TabIndex = 12;
+            this.pBudget.Text = "Budget:";
+            // 
+            // button9
+            // 
+            this.button9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button9.Location = new System.Drawing.Point(841, 407);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(75, 30);
+            this.button9.TabIndex = 11;
+            this.button9.Text = "Set";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.setScenePlace);
+            // 
+            // rentDuration
+            // 
+            this.rentDuration.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.rentDuration.Location = new System.Drawing.Point(567, 407);
+            this.rentDuration.Name = "rentDuration";
+            this.rentDuration.Size = new System.Drawing.Size(268, 22);
+            this.rentDuration.TabIndex = 10;
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.AllowUserToAddRows = false;
+            this.dataGridView3.AllowUserToDeleteRows = false;
+            this.dataGridView3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.dataGridView3.AutoGenerateColumns = false;
+            this.dataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.nameDataGridViewTextBoxColumn5,
+            this.descriptionDataGridViewTextBoxColumn3,
+            this.addressDataGridViewTextBoxColumn,
+            this.rentDataGridViewTextBoxColumn,
+            this.durationDataGridViewTextBoxColumn});
+            this.dataGridView3.DataSource = this.scenePlaceBindingSource;
+            this.dataGridView3.Location = new System.Drawing.Point(11, 314);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.ReadOnly = true;
+            this.dataGridView3.RowHeadersWidth = 51;
+            this.dataGridView3.RowTemplate.Height = 24;
+            this.dataGridView3.Size = new System.Drawing.Size(481, 87);
+            this.dataGridView3.TabIndex = 9;
             // 
             // nameDataGridViewTextBoxColumn5
             // 
@@ -1159,55 +1110,53 @@
             this.scenePlaceBindingSource.DataMember = "ScenePlace";
             this.scenePlaceBindingSource.DataSource = this.dsCharacter;
             // 
-            // idDataGridViewTextBoxColumn4
+            // label19
             // 
-            this.idDataGridViewTextBoxColumn4.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn4.HeaderText = "id";
-            this.idDataGridViewTextBoxColumn4.MinimumWidth = 6;
-            this.idDataGridViewTextBoxColumn4.Name = "idDataGridViewTextBoxColumn4";
-            this.idDataGridViewTextBoxColumn4.ReadOnly = true;
-            this.idDataGridViewTextBoxColumn4.Width = 48;
+            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(495, 410);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(66, 17);
+            this.label19.TabIndex = 8;
+            this.label19.Text = "Duration:";
             // 
-            // nameDataGridViewTextBoxColumn4
+            // button10
             // 
-            this.nameDataGridViewTextBoxColumn4.DataPropertyName = "name";
-            this.nameDataGridViewTextBoxColumn4.HeaderText = "name";
-            this.nameDataGridViewTextBoxColumn4.MinimumWidth = 6;
-            this.nameDataGridViewTextBoxColumn4.Name = "nameDataGridViewTextBoxColumn4";
-            this.nameDataGridViewTextBoxColumn4.ReadOnly = true;
-            this.nameDataGridViewTextBoxColumn4.Width = 72;
+            this.button10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button10.Location = new System.Drawing.Point(11, 407);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(86, 30);
+            this.button10.TabIndex = 7;
+            this.button10.Text = "Refresh";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.resetPlace);
             // 
-            // descriptionDataGridViewTextBoxColumn2
+            // dataPalce
             // 
-            this.descriptionDataGridViewTextBoxColumn2.DataPropertyName = "description";
-            this.descriptionDataGridViewTextBoxColumn2.HeaderText = "description";
-            this.descriptionDataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.descriptionDataGridViewTextBoxColumn2.Name = "descriptionDataGridViewTextBoxColumn2";
-            this.descriptionDataGridViewTextBoxColumn2.ReadOnly = true;
-            this.descriptionDataGridViewTextBoxColumn2.Width = 106;
-            // 
-            // filmDataGridViewTextBoxColumn2
-            // 
-            this.filmDataGridViewTextBoxColumn2.DataPropertyName = "film";
-            this.filmDataGridViewTextBoxColumn2.HeaderText = "film";
-            this.filmDataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.filmDataGridViewTextBoxColumn2.Name = "filmDataGridViewTextBoxColumn2";
-            this.filmDataGridViewTextBoxColumn2.ReadOnly = true;
-            this.filmDataGridViewTextBoxColumn2.Width = 58;
-            // 
-            // budgetDataGridViewTextBoxColumn1
-            // 
-            this.budgetDataGridViewTextBoxColumn1.DataPropertyName = "budget";
-            this.budgetDataGridViewTextBoxColumn1.HeaderText = "budget";
-            this.budgetDataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.budgetDataGridViewTextBoxColumn1.Name = "budgetDataGridViewTextBoxColumn1";
-            this.budgetDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.budgetDataGridViewTextBoxColumn1.Width = 81;
-            // 
-            // placeBindingSource
-            // 
-            this.placeBindingSource.DataMember = "Place";
-            this.placeBindingSource.DataSource = this.dsCharacter;
+            this.dataPalce.AllowUserToAddRows = false;
+            this.dataPalce.AllowUserToDeleteRows = false;
+            this.dataPalce.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataPalce.AutoGenerateColumns = false;
+            this.dataPalce.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataPalce.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataPalce.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn5,
+            this.nameDataGridViewTextBoxColumn6,
+            this.descriptionDataGridViewTextBoxColumn4,
+            this.addressDataGridViewTextBoxColumn1,
+            this.rentDataGridViewTextBoxColumn1});
+            this.dataPalce.DataSource = this.placeBindingSource;
+            this.dataPalce.Location = new System.Drawing.Point(498, 47);
+            this.dataPalce.MultiSelect = false;
+            this.dataPalce.Name = "dataPalce";
+            this.dataPalce.ReadOnly = true;
+            this.dataPalce.RowHeadersWidth = 51;
+            this.dataPalce.RowTemplate.Height = 24;
+            this.dataPalce.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataPalce.Size = new System.Drawing.Size(418, 354);
+            this.dataPalce.TabIndex = 3;
             // 
             // idDataGridViewTextBoxColumn5
             // 
@@ -1254,55 +1203,106 @@
             this.rentDataGridViewTextBoxColumn1.ReadOnly = true;
             this.rentDataGridViewTextBoxColumn1.Width = 62;
             // 
-            // button11
+            // placeBindingSource
             // 
-            this.button11.Location = new System.Drawing.Point(544, 11);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 30);
-            this.button11.TabIndex = 14;
-            this.button11.Text = "Filter";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.palceFilter);
+            this.placeBindingSource.DataMember = "Place";
+            this.placeBindingSource.DataSource = this.dsCharacter;
             // 
-            // label20
+            // label17
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(625, 17);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(40, 17);
-            this.label20.TabIndex = 15;
-            this.label20.Text = "From";
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(495, 14);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(43, 17);
+            this.label17.TabIndex = 2;
+            this.label17.Text = "Place";
             // 
-            // label21
+            // dataScenePlace
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(821, 18);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(25, 17);
-            this.label21.TabIndex = 16;
-            this.label21.Text = "To";
+            this.dataScenePlace.AllowUserToAddRows = false;
+            this.dataScenePlace.AllowUserToDeleteRows = false;
+            this.dataScenePlace.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.dataScenePlace.AutoGenerateColumns = false;
+            this.dataScenePlace.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataScenePlace.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataScenePlace.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn4,
+            this.nameDataGridViewTextBoxColumn4,
+            this.descriptionDataGridViewTextBoxColumn2,
+            this.filmDataGridViewTextBoxColumn2,
+            this.budgetDataGridViewTextBoxColumn1});
+            this.dataScenePlace.DataSource = this.sceneBindingSource;
+            this.dataScenePlace.Location = new System.Drawing.Point(11, 34);
+            this.dataScenePlace.MultiSelect = false;
+            this.dataScenePlace.Name = "dataScenePlace";
+            this.dataScenePlace.ReadOnly = true;
+            this.dataScenePlace.RowHeadersWidth = 51;
+            this.dataScenePlace.RowTemplate.Height = 24;
+            this.dataScenePlace.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataScenePlace.Size = new System.Drawing.Size(481, 257);
+            this.dataScenePlace.TabIndex = 1;
+            this.dataScenePlace.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.getPlaceByScene);
             // 
-            // minPlace
+            // idDataGridViewTextBoxColumn4
             // 
-            this.minPlace.Location = new System.Drawing.Point(671, 14);
-            this.minPlace.Name = "minPlace";
-            this.minPlace.Size = new System.Drawing.Size(144, 22);
-            this.minPlace.TabIndex = 17;
+            this.idDataGridViewTextBoxColumn4.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn4.HeaderText = "id";
+            this.idDataGridViewTextBoxColumn4.MinimumWidth = 6;
+            this.idDataGridViewTextBoxColumn4.Name = "idDataGridViewTextBoxColumn4";
+            this.idDataGridViewTextBoxColumn4.ReadOnly = true;
+            this.idDataGridViewTextBoxColumn4.Width = 48;
             // 
-            // maxPlace
+            // nameDataGridViewTextBoxColumn4
             // 
-            this.maxPlace.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.maxPlace.Location = new System.Drawing.Point(852, 14);
-            this.maxPlace.Name = "maxPlace";
-            this.maxPlace.Size = new System.Drawing.Size(121, 22);
-            this.maxPlace.TabIndex = 18;
+            this.nameDataGridViewTextBoxColumn4.DataPropertyName = "name";
+            this.nameDataGridViewTextBoxColumn4.HeaderText = "name";
+            this.nameDataGridViewTextBoxColumn4.MinimumWidth = 6;
+            this.nameDataGridViewTextBoxColumn4.Name = "nameDataGridViewTextBoxColumn4";
+            this.nameDataGridViewTextBoxColumn4.ReadOnly = true;
+            this.nameDataGridViewTextBoxColumn4.Width = 72;
+            // 
+            // descriptionDataGridViewTextBoxColumn2
+            // 
+            this.descriptionDataGridViewTextBoxColumn2.DataPropertyName = "description";
+            this.descriptionDataGridViewTextBoxColumn2.HeaderText = "description";
+            this.descriptionDataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.descriptionDataGridViewTextBoxColumn2.Name = "descriptionDataGridViewTextBoxColumn2";
+            this.descriptionDataGridViewTextBoxColumn2.ReadOnly = true;
+            this.descriptionDataGridViewTextBoxColumn2.Width = 106;
+            // 
+            // filmDataGridViewTextBoxColumn2
+            // 
+            this.filmDataGridViewTextBoxColumn2.DataPropertyName = "film";
+            this.filmDataGridViewTextBoxColumn2.HeaderText = "film";
+            this.filmDataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.filmDataGridViewTextBoxColumn2.Name = "filmDataGridViewTextBoxColumn2";
+            this.filmDataGridViewTextBoxColumn2.ReadOnly = true;
+            this.filmDataGridViewTextBoxColumn2.Width = 58;
+            // 
+            // budgetDataGridViewTextBoxColumn1
+            // 
+            this.budgetDataGridViewTextBoxColumn1.DataPropertyName = "budget";
+            this.budgetDataGridViewTextBoxColumn1.HeaderText = "budget";
+            this.budgetDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.budgetDataGridViewTextBoxColumn1.Name = "budgetDataGridViewTextBoxColumn1";
+            this.budgetDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.budgetDataGridViewTextBoxColumn1.Width = 81;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(8, 14);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(48, 17);
+            this.label16.TabIndex = 0;
+            this.label16.Text = "Scene";
             // 
             // DecoratorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(989, 467);
+            this.ClientSize = new System.Drawing.Size(932, 474);
             this.Controls.Add(this.tabControl);
             this.Name = "DecoratorForm";
             this.Text = "DecoratorForm";
@@ -1312,24 +1312,24 @@
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sceneBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dsCharacter)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataDecorList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.decorBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSceneDecor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sceneDecorBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataScene)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sceneBindingSource)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataScenePlace)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataPalce)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sceneBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dsCharacter)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.decorBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sceneDecorBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sceneBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.scenePlaceBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataPalce)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.placeBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataScenePlace)).EndInit();
             this.ResumeLayout(false);
 
         }

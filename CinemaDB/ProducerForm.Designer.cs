@@ -70,6 +70,7 @@
             this.requirementsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.characterBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.cEdit = new System.Windows.Forms.Button();
+            this.deleteScenarioButton = new System.Windows.Forms.Button();
             this.cReset = new System.Windows.Forms.Button();
             this.cCreate = new System.Windows.Forms.Button();
             this.cSelect = new System.Windows.Forms.ComboBox();
@@ -134,7 +135,6 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.deleteScenarioButton = new System.Windows.Forms.Button();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage5.SuspendLayout();
@@ -171,7 +171,7 @@
             this.tabControl.Location = new System.Drawing.Point(0, 0);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(937, 486);
+            this.tabControl.Size = new System.Drawing.Size(885, 468);
             this.tabControl.TabIndex = 0;
             // 
             // tabPage1
@@ -189,7 +189,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(929, 457);
+            this.tabPage1.Size = new System.Drawing.Size(877, 439);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Profile";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -197,7 +197,7 @@
             // profileEditClose
             // 
             this.profileEditClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.profileEditClose.Location = new System.Drawing.Point(159, 419);
+            this.profileEditClose.Location = new System.Drawing.Point(159, 401);
             this.profileEditClose.Name = "profileEditClose";
             this.profileEditClose.Size = new System.Drawing.Size(75, 30);
             this.profileEditClose.TabIndex = 15;
@@ -209,7 +209,7 @@
             // profileEdit
             // 
             this.profileEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.profileEdit.Location = new System.Drawing.Point(78, 419);
+            this.profileEdit.Location = new System.Drawing.Point(78, 401);
             this.profileEdit.Name = "profileEdit";
             this.profileEdit.Size = new System.Drawing.Size(75, 30);
             this.profileEdit.TabIndex = 14;
@@ -220,7 +220,7 @@
             // profileExit
             // 
             this.profileExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.profileExit.Location = new System.Drawing.Point(846, 419);
+            this.profileExit.Location = new System.Drawing.Point(794, 401);
             this.profileExit.Name = "profileExit";
             this.profileExit.Size = new System.Drawing.Size(75, 30);
             this.profileExit.TabIndex = 13;
@@ -237,7 +237,7 @@
             this.profileAbout.Multiline = true;
             this.profileAbout.Name = "profileAbout";
             this.profileAbout.ReadOnly = true;
-            this.profileAbout.Size = new System.Drawing.Size(843, 281);
+            this.profileAbout.Size = new System.Drawing.Size(791, 263);
             this.profileAbout.TabIndex = 10;
             // 
             // profileContact
@@ -247,7 +247,7 @@
             this.profileContact.Location = new System.Drawing.Point(78, 92);
             this.profileContact.Name = "profileContact";
             this.profileContact.ReadOnly = true;
-            this.profileContact.Size = new System.Drawing.Size(843, 22);
+            this.profileContact.Size = new System.Drawing.Size(791, 22);
             this.profileContact.TabIndex = 11;
             // 
             // profileName
@@ -257,7 +257,7 @@
             this.profileName.Location = new System.Drawing.Point(78, 52);
             this.profileName.Name = "profileName";
             this.profileName.ReadOnly = true;
-            this.profileName.Size = new System.Drawing.Size(843, 22);
+            this.profileName.Size = new System.Drawing.Size(791, 22);
             this.profileName.TabIndex = 12;
             // 
             // label4
@@ -309,7 +309,7 @@
             this.tabPage5.Controls.Add(this.label2);
             this.tabPage5.Location = new System.Drawing.Point(4, 25);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(929, 457);
+            this.tabPage5.Size = new System.Drawing.Size(877, 439);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "CreateFilm";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -317,7 +317,7 @@
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(846, 419);
+            this.button1.Location = new System.Drawing.Point(794, 401);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 30);
             this.button1.TabIndex = 8;
@@ -331,17 +331,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cfGenresList.FormattingEnabled = true;
             this.cfGenresList.ItemHeight = 16;
-            this.cfGenresList.Location = new System.Drawing.Point(97, 265);
+            this.cfGenresList.Location = new System.Drawing.Point(97, 247);
             this.cfGenresList.Name = "cfGenresList";
             this.cfGenresList.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
-            this.cfGenresList.Size = new System.Drawing.Size(824, 148);
+            this.cfGenresList.Size = new System.Drawing.Size(772, 148);
             this.cfGenresList.TabIndex = 7;
             // 
             // label7
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(8, 265);
+            this.label7.Location = new System.Drawing.Point(8, 247);
             this.label7.MinimumSize = new System.Drawing.Size(83, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(83, 17);
@@ -357,7 +357,7 @@
             this.cfDescription.Location = new System.Drawing.Point(97, 69);
             this.cfDescription.Multiline = true;
             this.cfDescription.Name = "cfDescription";
-            this.cfDescription.Size = new System.Drawing.Size(824, 190);
+            this.cfDescription.Size = new System.Drawing.Size(772, 172);
             this.cfDescription.TabIndex = 5;
             // 
             // cfOrigin
@@ -366,7 +366,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cfOrigin.Location = new System.Drawing.Point(97, 41);
             this.cfOrigin.Name = "cfOrigin";
-            this.cfOrigin.Size = new System.Drawing.Size(824, 22);
+            this.cfOrigin.Size = new System.Drawing.Size(772, 22);
             this.cfOrigin.TabIndex = 4;
             // 
             // cfName
@@ -375,7 +375,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cfName.Location = new System.Drawing.Point(97, 13);
             this.cfName.Name = "cfName";
-            this.cfName.Size = new System.Drawing.Size(824, 22);
+            this.cfName.Size = new System.Drawing.Size(772, 22);
             this.cfName.TabIndex = 3;
             // 
             // label6
@@ -435,7 +435,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(929, 457);
+            this.tabPage2.Size = new System.Drawing.Size(877, 439);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Films";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -443,7 +443,7 @@
             // cAdd
             // 
             this.cAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.cAdd.Location = new System.Drawing.Point(11, 419);
+            this.cAdd.Location = new System.Drawing.Point(11, 401);
             this.cAdd.Name = "cAdd";
             this.cAdd.Size = new System.Drawing.Size(247, 30);
             this.cAdd.TabIndex = 15;
@@ -468,7 +468,7 @@
             this.dataScenarioAdd.Name = "dataScenarioAdd";
             this.dataScenarioAdd.RowHeadersWidth = 51;
             this.dataScenarioAdd.RowTemplate.Height = 24;
-            this.dataScenarioAdd.Size = new System.Drawing.Size(247, 166);
+            this.dataScenarioAdd.Size = new System.Drawing.Size(247, 148);
             this.dataScenarioAdd.TabIndex = 14;
             // 
             // sInfoDataGridViewTextBoxColumn
@@ -516,7 +516,7 @@
             this.dataScenario.Name = "dataScenario";
             this.dataScenario.RowHeadersWidth = 51;
             this.dataScenario.RowTemplate.Height = 24;
-            this.dataScenario.Size = new System.Drawing.Size(657, 74);
+            this.dataScenario.Size = new System.Drawing.Size(605, 56);
             this.dataScenario.TabIndex = 13;
             // 
             // idDataGridViewTextBoxColumn1
@@ -568,7 +568,7 @@
             this.dataChar.Name = "dataChar";
             this.dataChar.RowHeadersWidth = 51;
             this.dataChar.RowTemplate.Height = 24;
-            this.dataChar.Size = new System.Drawing.Size(657, 86);
+            this.dataChar.Size = new System.Drawing.Size(605, 86);
             this.dataChar.TabIndex = 12;
             // 
             // idDataGridViewTextBoxColumn
@@ -612,7 +612,7 @@
             // cEdit
             // 
             this.cEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.cEdit.Location = new System.Drawing.Point(846, 419);
+            this.cEdit.Location = new System.Drawing.Point(794, 401);
             this.cEdit.Name = "cEdit";
             this.cEdit.Size = new System.Drawing.Size(75, 30);
             this.cEdit.TabIndex = 11;
@@ -620,21 +620,32 @@
             this.cEdit.UseVisualStyleBackColor = true;
             this.cEdit.Click += new System.EventHandler(this.EditCharacter);
             // 
+            // deleteScenarioButton
+            // 
+            this.deleteScenarioButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.deleteScenarioButton.Location = new System.Drawing.Point(621, 401);
+            this.deleteScenarioButton.Name = "deleteScenarioButton";
+            this.deleteScenarioButton.Size = new System.Drawing.Size(75, 30);
+            this.deleteScenarioButton.TabIndex = 11;
+            this.deleteScenarioButton.Text = "Delete";
+            this.deleteScenarioButton.UseVisualStyleBackColor = true;
+            this.deleteScenarioButton.Click += new System.EventHandler(this.deleteScenario);
+            // 
             // cReset
             // 
             this.cReset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.cReset.Location = new System.Drawing.Point(765, 419);
+            this.cReset.Location = new System.Drawing.Point(702, 401);
             this.cReset.Name = "cReset";
-            this.cReset.Size = new System.Drawing.Size(75, 30);
+            this.cReset.Size = new System.Drawing.Size(86, 30);
             this.cReset.TabIndex = 11;
-            this.cReset.Text = "Reset";
+            this.cReset.Text = "Refresh";
             this.cReset.UseVisualStyleBackColor = true;
             this.cReset.Click += new System.EventHandler(this.resetEdited);
             // 
             // cCreate
             // 
             this.cCreate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.cCreate.Location = new System.Drawing.Point(846, 210);
+            this.cCreate.Location = new System.Drawing.Point(794, 210);
             this.cCreate.Name = "cCreate";
             this.cCreate.Size = new System.Drawing.Size(75, 30);
             this.cCreate.TabIndex = 10;
@@ -650,7 +661,7 @@
             this.cSelect.FormattingEnabled = true;
             this.cSelect.Location = new System.Drawing.Point(97, 210);
             this.cSelect.Name = "cSelect";
-            this.cSelect.Size = new System.Drawing.Size(743, 24);
+            this.cSelect.Size = new System.Drawing.Size(691, 24);
             this.cSelect.TabIndex = 9;
             this.cSelect.SelectedIndexChanged += new System.EventHandler(this.cChange);
             // 
@@ -668,7 +679,7 @@
             // fClose
             // 
             this.fClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.fClose.Location = new System.Drawing.Point(767, 164);
+            this.fClose.Location = new System.Drawing.Point(715, 164);
             this.fClose.Name = "fClose";
             this.fClose.Size = new System.Drawing.Size(75, 30);
             this.fClose.TabIndex = 7;
@@ -679,7 +690,7 @@
             // fEdit
             // 
             this.fEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.fEdit.Location = new System.Drawing.Point(846, 164);
+            this.fEdit.Location = new System.Drawing.Point(794, 164);
             this.fEdit.Name = "fEdit";
             this.fEdit.Size = new System.Drawing.Size(75, 30);
             this.fEdit.TabIndex = 6;
@@ -695,7 +706,7 @@
             this.fDescription.Multiline = true;
             this.fDescription.Name = "fDescription";
             this.fDescription.ReadOnly = true;
-            this.fDescription.Size = new System.Drawing.Size(824, 60);
+            this.fDescription.Size = new System.Drawing.Size(772, 60);
             this.fDescription.TabIndex = 5;
             // 
             // fOrigin
@@ -705,7 +716,7 @@
             this.fOrigin.Location = new System.Drawing.Point(97, 70);
             this.fOrigin.Name = "fOrigin";
             this.fOrigin.ReadOnly = true;
-            this.fOrigin.Size = new System.Drawing.Size(824, 22);
+            this.fOrigin.Size = new System.Drawing.Size(772, 22);
             this.fOrigin.TabIndex = 4;
             // 
             // fName
@@ -715,7 +726,7 @@
             this.fName.Location = new System.Drawing.Point(97, 42);
             this.fName.Name = "fName";
             this.fName.ReadOnly = true;
-            this.fName.Size = new System.Drawing.Size(824, 22);
+            this.fName.Size = new System.Drawing.Size(772, 22);
             this.fName.TabIndex = 3;
             // 
             // label11
@@ -758,7 +769,7 @@
             this.fSelect.FormattingEnabled = true;
             this.fSelect.Location = new System.Drawing.Point(97, 12);
             this.fSelect.Name = "fSelect";
-            this.fSelect.Size = new System.Drawing.Size(824, 24);
+            this.fSelect.Size = new System.Drawing.Size(772, 24);
             this.fSelect.TabIndex = 1;
             this.fSelect.SelectedIndexChanged += new System.EventHandler(this.fChange);
             // 
@@ -788,7 +799,7 @@
             this.tabPage3.Controls.Add(this.label17);
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(929, 457);
+            this.tabPage3.Size = new System.Drawing.Size(877, 439);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Staff";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -814,7 +825,7 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(424, 128);
+            this.dataGridView1.Size = new System.Drawing.Size(424, 110);
             this.dataGridView1.TabIndex = 9;
             // 
             // idDataGridViewTextBoxColumn4
@@ -879,7 +890,7 @@
             // sWait
             // 
             this.sWait.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.sWait.Location = new System.Drawing.Point(765, 424);
+            this.sWait.Location = new System.Drawing.Point(713, 406);
             this.sWait.Name = "sWait";
             this.sWait.Size = new System.Drawing.Size(75, 30);
             this.sWait.TabIndex = 6;
@@ -890,7 +901,7 @@
             // sDeny
             // 
             this.sDeny.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.sDeny.Location = new System.Drawing.Point(846, 424);
+            this.sDeny.Location = new System.Drawing.Point(794, 406);
             this.sDeny.Name = "sDeny";
             this.sDeny.Size = new System.Drawing.Size(75, 30);
             this.sDeny.TabIndex = 6;
@@ -901,7 +912,7 @@
             // sAccept
             // 
             this.sAccept.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.sAccept.Location = new System.Drawing.Point(684, 424);
+            this.sAccept.Location = new System.Drawing.Point(632, 406);
             this.sAccept.Name = "sAccept";
             this.sAccept.Size = new System.Drawing.Size(75, 30);
             this.sAccept.TabIndex = 6;
@@ -1005,7 +1016,7 @@
             this.dataWork.RowHeadersWidth = 51;
             this.dataWork.RowTemplate.Height = 24;
             this.dataWork.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataWork.Size = new System.Drawing.Size(480, 344);
+            this.dataWork.Size = new System.Drawing.Size(428, 326);
             this.dataWork.TabIndex = 2;
             // 
             // idDataGridViewTextBoxColumn2
@@ -1075,7 +1086,7 @@
             this.sFilm.FormattingEnabled = true;
             this.sFilm.Location = new System.Drawing.Point(51, 12);
             this.sFilm.Name = "sFilm";
-            this.sFilm.Size = new System.Drawing.Size(870, 24);
+            this.sFilm.Size = new System.Drawing.Size(818, 24);
             this.sFilm.TabIndex = 1;
             this.sFilm.SelectedIndexChanged += new System.EventHandler(this.sFilmChange);
             // 
@@ -1105,7 +1116,7 @@
             this.tabPage4.Controls.Add(this.label13);
             this.tabPage4.Location = new System.Drawing.Point(4, 25);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(929, 457);
+            this.tabPage4.Size = new System.Drawing.Size(877, 439);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Tasks";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -1130,7 +1141,7 @@
             this.dataTasks.Name = "dataTasks";
             this.dataTasks.RowHeadersWidth = 51;
             this.dataTasks.RowTemplate.Height = 24;
-            this.dataTasks.Size = new System.Drawing.Size(664, 293);
+            this.dataTasks.Size = new System.Drawing.Size(612, 275);
             this.dataTasks.TabIndex = 14;
             // 
             // idDataGridViewTextBoxColumn5
@@ -1187,7 +1198,7 @@
             this.dataTasksAdd.Name = "dataTasksAdd";
             this.dataTasksAdd.RowHeadersWidth = 51;
             this.dataTasksAdd.RowTemplate.Height = 24;
-            this.dataTasksAdd.Size = new System.Drawing.Size(240, 263);
+            this.dataTasksAdd.Size = new System.Drawing.Size(240, 245);
             this.dataTasksAdd.TabIndex = 13;
             // 
             // descriptionDataGridViewTextBoxColumn1
@@ -1206,18 +1217,18 @@
             // tResetButton
             // 
             this.tResetButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.tResetButton.Location = new System.Drawing.Point(765, 419);
+            this.tResetButton.Location = new System.Drawing.Point(705, 401);
             this.tResetButton.Name = "tResetButton";
-            this.tResetButton.Size = new System.Drawing.Size(75, 30);
+            this.tResetButton.Size = new System.Drawing.Size(83, 30);
             this.tResetButton.TabIndex = 12;
-            this.tResetButton.Text = "Reset";
+            this.tResetButton.Text = "Refresh";
             this.tResetButton.UseVisualStyleBackColor = true;
             this.tResetButton.Click += new System.EventHandler(this.resetTaskEdit);
             // 
             // tEditButton
             // 
             this.tEditButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.tEditButton.Location = new System.Drawing.Point(846, 419);
+            this.tEditButton.Location = new System.Drawing.Point(794, 401);
             this.tEditButton.Name = "tEditButton";
             this.tEditButton.Size = new System.Drawing.Size(75, 30);
             this.tEditButton.TabIndex = 11;
@@ -1228,7 +1239,7 @@
             // tAddButton
             // 
             this.tAddButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.tAddButton.Location = new System.Drawing.Point(11, 419);
+            this.tAddButton.Location = new System.Drawing.Point(11, 401);
             this.tAddButton.Name = "tAddButton";
             this.tAddButton.Size = new System.Drawing.Size(240, 30);
             this.tAddButton.TabIndex = 9;
@@ -1252,7 +1263,7 @@
             this.tCharacter.FormattingEnabled = true;
             this.tCharacter.Location = new System.Drawing.Point(66, 72);
             this.tCharacter.Name = "tCharacter";
-            this.tCharacter.Size = new System.Drawing.Size(855, 24);
+            this.tCharacter.Size = new System.Drawing.Size(803, 24);
             this.tCharacter.TabIndex = 4;
             this.tCharacter.SelectedIndexChanged += new System.EventHandler(this.tCharChange);
             // 
@@ -1264,7 +1275,7 @@
             this.tScene.FormattingEnabled = true;
             this.tScene.Location = new System.Drawing.Point(66, 42);
             this.tScene.Name = "tScene";
-            this.tScene.Size = new System.Drawing.Size(855, 24);
+            this.tScene.Size = new System.Drawing.Size(803, 24);
             this.tScene.TabIndex = 3;
             this.tScene.SelectedIndexChanged += new System.EventHandler(this.tSceneChange);
             // 
@@ -1276,7 +1287,7 @@
             this.tFilm.FormattingEnabled = true;
             this.tFilm.Location = new System.Drawing.Point(66, 12);
             this.tFilm.Name = "tFilm";
-            this.tFilm.Size = new System.Drawing.Size(855, 24);
+            this.tFilm.Size = new System.Drawing.Size(803, 24);
             this.tFilm.TabIndex = 2;
             this.tFilm.SelectedIndexChanged += new System.EventHandler(this.tFilmChange);
             // 
@@ -1316,22 +1327,11 @@
             this.label13.TabIndex = 0;
             this.label13.Text = "Film:";
             // 
-            // deleteScenarioButton
-            // 
-            this.deleteScenarioButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.deleteScenarioButton.Location = new System.Drawing.Point(684, 418);
-            this.deleteScenarioButton.Name = "deleteScenarioButton";
-            this.deleteScenarioButton.Size = new System.Drawing.Size(75, 30);
-            this.deleteScenarioButton.TabIndex = 11;
-            this.deleteScenarioButton.Text = "Delete";
-            this.deleteScenarioButton.UseVisualStyleBackColor = true;
-            this.deleteScenarioButton.Click += new System.EventHandler(this.deleteScenario);
-            // 
             // ProducerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(937, 486);
+            this.ClientSize = new System.Drawing.Size(885, 468);
             this.Controls.Add(this.tabControl);
             this.Name = "ProducerForm";
             this.Text = "ProducerForm";

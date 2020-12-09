@@ -198,6 +198,11 @@ namespace CinemaDB
                 MessageBox.Show("Budget is not double", "Incorrect data", MessageBoxButtons.OK);
                 return;
             }
+            if (budget < 0)
+            {
+                MessageBox.Show("Budget is negative", "Incorrect data", MessageBoxButtons.OK);
+                return;
+            }
 
             OleDbCommand d = new OleDbCommand("exec createScene '"+film+"', '"+name+"', '"+desc+"', "+budget, cn);
             d.ExecuteNonQuery();
