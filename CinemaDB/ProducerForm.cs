@@ -76,6 +76,7 @@ namespace CinemaDB
             fName.Text = "";
             fDescription.Text = "";
             fOrigin.Text = "";
+            lGenres.Text = "";
 
             fEdit.Enabled = false;
             fClose.Enabled = false;
@@ -312,6 +313,15 @@ namespace CinemaDB
                 fDescription.Text = rdr[2].ToString();
             }
             rdr.Close();
+
+            lGenres.Text = "";
+            rdr = new OleDbCommand("exec getFilmGenres '"+ fSelect.SelectedItem.ToString() + "'", cn).ExecuteReader();
+            while (rdr.Read())
+            {
+                lGenres.Text += rdr[0].ToString() + ", ";
+            }
+            lGenres.Text = lGenres.Text.Substring(0, lGenres.Text.Length - 2);
+
             initCharacters(false);
         }
 

@@ -135,6 +135,8 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.lSome = new System.Windows.Forms.Label();
+            this.lGenres = new System.Windows.Forms.Label();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage5.SuspendLayout();
@@ -412,6 +414,8 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.lGenres);
+            this.tabPage2.Controls.Add(this.lSome);
             this.tabPage2.Controls.Add(this.cAdd);
             this.tabPage2.Controls.Add(this.dataScenarioAdd);
             this.tabPage2.Controls.Add(this.dataScenario);
@@ -1327,6 +1331,26 @@
             this.label13.TabIndex = 0;
             this.label13.Text = "Film:";
             // 
+            // lSome
+            // 
+            this.lSome.AutoSize = true;
+            this.lSome.Location = new System.Drawing.Point(8, 164);
+            this.lSome.MinimumSize = new System.Drawing.Size(83, 0);
+            this.lSome.Name = "lSome";
+            this.lSome.Size = new System.Drawing.Size(83, 17);
+            this.lSome.TabIndex = 16;
+            this.lSome.Text = "Genres:";
+            this.lSome.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // lGenres
+            // 
+            this.lGenres.AutoSize = true;
+            this.lGenres.Location = new System.Drawing.Point(97, 164);
+            this.lGenres.Name = "lGenres";
+            this.lGenres.Size = new System.Drawing.Size(54, 17);
+            this.lGenres.TabIndex = 17;
+            this.lGenres.Text = "label21";
+            // 
             // ProducerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1478,5 +1502,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn contactsDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource workSheetBindingSource;
         private System.Windows.Forms.Button deleteScenarioButton;
+        private System.Windows.Forms.Label lSome;
+        private System.Windows.Forms.Label lGenres;
     }
 }
