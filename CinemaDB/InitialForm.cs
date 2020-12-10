@@ -67,11 +67,9 @@ namespace CinemaDB
 
         private void siButtonClick(object sender, EventArgs e)
         {
-            String sql = "select person_id, post_id from Account join Person on Account.person_id = Person.id and login=? and password=?";
-            OleDbCommand sel = new OleDbCommand(sql, cn);
+            OleDbCommand sel = new OleDbCommand("exec signinAccount ?, ?", cn);
             sel.Parameters.Add("@Login", OleDbType.VarChar, 50);
             sel.Parameters.Add("@Password", OleDbType.VarChar);
-
             sel.Parameters[0].Value = siLogin.Text;
             sel.Parameters[1].Value = EncrypterDecrypter.EncryptText(siPassword.Text);
 
@@ -96,8 +94,6 @@ namespace CinemaDB
                         new DecoratorForm(this, person_id).Show();
                         break;
                 }
-
-                //TODO onclose event in new forms
             }
             else
             {
@@ -108,8 +104,6 @@ namespace CinemaDB
 
         private void suButtonClick(object sender, EventArgs e)
         {
-            bool ok = true;
-
             String name = suName.Text.Trim();
             if (name.Length == 0)
             {
@@ -147,48 +141,23 @@ namespace CinemaDB
                 return;
             }
 
-
-            OleDbCommand post_id = new OleDbCommand("select id from Post where name = ?", cn);
-            post_id.Parameters.Add("@Name", OleDbType.VarChar, 50);
-            post_id.Parameters[0].Value = suPost.Text;
-            rdr = post_id.ExecuteReader();
-            int postID = 0;
-            if (rdr.Read())
+            if (suPost.SelectedIndex == -1)
             {
-                postID = int.Parse(rdr["id"].ToString());
-            }
-            else
-            {
-                MessageBox.Show("Post value incorrect", "Incorrect data", MessageBoxButtons.OK);
+                MessageBox.Show("Post not selected", "Incorrect data", MessageBoxButtons.OK);
                 return;
             }
-            rdr.Close();
 
-            OleDbCommand personAdd = new OleDbCommand("insert into Person (name, post_id) values (?, ?)", cn);
-            personAdd.Parameters.Add("@Name", OleDbType.VarChar, 50);
-            personAdd.Parameters.Add("@PostID", OleDbType.Integer);
-            personAdd.Parameters[0].Value = name;
-            personAdd.Parameters[1].Value = postID;
-            ok = ok && (personAdd.ExecuteNonQuery() != 0);
-            OleDbCommand person_id = new OleDbCommand("select max(id) from Person", cn);
-            rdr = person_id.ExecuteReader();
-            ok = ok && rdr.Read();
-            int personID = int.Parse(rdr[0].ToString());
-            rdr.Close();
+            OleDbCommand accountAdd = new OleDbCommand("exec createAccount ?, ?, ?, ?", cn);
+            accountAdd.Parameters.Add("@Name", OleDbType.VarChar, 50);
+            accountAdd.Parameters.Add("@Post", OleDbType.VarChar, 50);
+            accountAdd.Parameters.Add("@Login", OleDbType.VarChar, 50);
+            accountAdd.Parameters.Add("@Password", OleDbType.VarChar);
+            accountAdd.Parameters[0].Value = name;
+            accountAdd.Parameters[1].Value = suPost.SelectedItem.ToString();
+            accountAdd.Parameters[2].Value = login;
+            accountAdd.Parameters[3].Value = EncrypterDecrypter.EncryptText(password1);
 
-            if (ok)
-            {
-                OleDbCommand accountAdd = new OleDbCommand("insert into Account (login, password, person_id) values (?, ?, ?)", cn);
-                accountAdd.Parameters.Add("@Login", OleDbType.VarChar, 50);
-                accountAdd.Parameters.Add("@Password", OleDbType.VarChar);
-                accountAdd.Parameters.Add("@PersonID", OleDbType.Integer);
-                accountAdd.Parameters[0].Value = login;
-                accountAdd.Parameters[1].Value = EncrypterDecrypter.EncryptText(password1);
-                accountAdd.Parameters[2].Value = personID;
-                ok = ok && (accountAdd.ExecuteNonQuery() != 0);
-            }
-
-            if (ok)
+            if (accountAdd.ExecuteNonQuery() != 0)
             {
                 suName.Text = "";
                 suLogin.Text = "";

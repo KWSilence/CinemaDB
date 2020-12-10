@@ -60,7 +60,7 @@
             this.tabControl.Location = new System.Drawing.Point(0, 0);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(486, 243);
+            this.tabControl.Size = new System.Drawing.Size(482, 243);
             this.tabControl.TabIndex = 0;
             // 
             // siTab
@@ -73,7 +73,7 @@
             this.siTab.Location = new System.Drawing.Point(4, 25);
             this.siTab.Name = "siTab";
             this.siTab.Padding = new System.Windows.Forms.Padding(3);
-            this.siTab.Size = new System.Drawing.Size(478, 214);
+            this.siTab.Size = new System.Drawing.Size(474, 214);
             this.siTab.TabIndex = 0;
             this.siTab.Text = "Sign In";
             this.siTab.UseVisualStyleBackColor = true;
@@ -118,7 +118,7 @@
             this.siPassword.Location = new System.Drawing.Point(97, 57);
             this.siPassword.Name = "siPassword";
             this.siPassword.PasswordChar = '*';
-            this.siPassword.Size = new System.Drawing.Size(373, 22);
+            this.siPassword.Size = new System.Drawing.Size(369, 22);
             this.siPassword.TabIndex = 1;
             // 
             // siLogin
@@ -127,7 +127,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.siLogin.Location = new System.Drawing.Point(97, 17);
             this.siLogin.Name = "siLogin";
-            this.siLogin.Size = new System.Drawing.Size(373, 22);
+            this.siLogin.Size = new System.Drawing.Size(369, 22);
             this.siLogin.TabIndex = 0;
             // 
             // suTab
@@ -146,7 +146,7 @@
             this.suTab.Location = new System.Drawing.Point(4, 25);
             this.suTab.Name = "suTab";
             this.suTab.Padding = new System.Windows.Forms.Padding(3);
-            this.suTab.Size = new System.Drawing.Size(478, 214);
+            this.suTab.Size = new System.Drawing.Size(474, 214);
             this.suTab.TabIndex = 1;
             this.suTab.Text = "Sign Up";
             this.suTab.UseVisualStyleBackColor = true;
@@ -160,14 +160,14 @@
             this.suPost.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.suPost.Location = new System.Drawing.Point(97, 177);
             this.suPost.Name = "suPost";
-            this.suPost.Size = new System.Drawing.Size(292, 24);
+            this.suPost.Size = new System.Drawing.Size(288, 24);
             this.suPost.TabIndex = 9;
             // 
             // suButton
             // 
             this.suButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.suButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.suButton.Location = new System.Drawing.Point(395, 178);
+            this.suButton.Location = new System.Drawing.Point(391, 178);
             this.suButton.Name = "suButton";
             this.suButton.Size = new System.Drawing.Size(75, 28);
             this.suButton.TabIndex = 8;
@@ -182,7 +182,7 @@
             this.suPassword2.Location = new System.Drawing.Point(97, 137);
             this.suPassword2.Name = "suPassword2";
             this.suPassword2.PasswordChar = '*';
-            this.suPassword2.Size = new System.Drawing.Size(373, 22);
+            this.suPassword2.Size = new System.Drawing.Size(369, 22);
             this.suPassword2.TabIndex = 7;
             // 
             // suPassword1
@@ -192,7 +192,7 @@
             this.suPassword1.Location = new System.Drawing.Point(97, 97);
             this.suPassword1.Name = "suPassword1";
             this.suPassword1.PasswordChar = '*';
-            this.suPassword1.Size = new System.Drawing.Size(373, 22);
+            this.suPassword1.Size = new System.Drawing.Size(369, 22);
             this.suPassword1.TabIndex = 6;
             // 
             // suLogin
@@ -201,7 +201,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.suLogin.Location = new System.Drawing.Point(97, 57);
             this.suLogin.Name = "suLogin";
-            this.suLogin.Size = new System.Drawing.Size(373, 22);
+            this.suLogin.Size = new System.Drawing.Size(369, 22);
             this.suLogin.TabIndex = 5;
             // 
             // suName
@@ -210,7 +210,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.suName.Location = new System.Drawing.Point(97, 17);
             this.suName.Name = "suName";
-            this.suName.Size = new System.Drawing.Size(373, 22);
+            this.suName.Size = new System.Drawing.Size(369, 22);
             this.suName.TabIndex = 4;
             // 
             // label7
@@ -272,7 +272,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(486, 243);
+            this.ClientSize = new System.Drawing.Size(482, 243);
             this.Controls.Add(this.tabControl);
             this.MinimumSize = new System.Drawing.Size(500, 290);
             this.Name = "InitialForm";

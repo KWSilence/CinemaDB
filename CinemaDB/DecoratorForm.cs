@@ -41,7 +41,7 @@ namespace CinemaDB
             profileEditClose.Visible = false;
             profileEdit.Text = "Edit";
 
-            OleDbCommand init = new OleDbCommand("select Post.name, Person.name, contacts, about from Person join Post on Person.id = ? and Person.post_id = Post.id", cn);
+            OleDbCommand init = new OleDbCommand("exec getPersonInfo ?", cn);
             init.Parameters.Add("@PersonID", OleDbType.Integer);
             init.Parameters[0].Value = thisID;
             OleDbDataReader rdr = init.ExecuteReader();
@@ -90,7 +90,7 @@ namespace CinemaDB
             OleDbDataAdapter d = new OleDbDataAdapter("exec getSceneByDecorator "+thisID, cn);
             d.Fill(dsCharacter, "Scene");
 
-            d = new OleDbDataAdapter("select Decoration.id, DecorType.name as 'type', Decoration.name, Decoration.spec, Decoration.cost from Decoration join DecorType on Decoration.type_id = DecorType.id", cn);
+            d = new OleDbDataAdapter("exec getDecorList", cn);
             d.Fill(dsCharacter, "Decor");
         }
 
@@ -148,7 +148,7 @@ namespace CinemaDB
             String contacts = profileContact.Text.Trim();
             String about = profileAbout.Text.Trim();
 
-            OleDbCommand updateProfile = new OleDbCommand("update Person set name = ?, contacts = ?, about = ? where id = ?", cn);
+            OleDbCommand updateProfile = new OleDbCommand("exec updatePersonInfo ?, ?, ?, ?", cn);
             updateProfile.Parameters.Add("@Name", OleDbType.VarChar, 50);
             updateProfile.Parameters.Add("@Contacts", OleDbType.VarChar);
             updateProfile.Parameters.Add("@About", OleDbType.VarChar);
