@@ -208,6 +208,7 @@ namespace CinemaDB
 
         private void getScenario(object sender, DataGridViewCellEventArgs e)
         {
+            dsCharacter.Tables["ActorScenario"].Clear();
             OleDbDataAdapter d = new OleDbDataAdapter("exec getScenarioByStaff " + dataAccepted.SelectedRows[0].Cells[0].Value.ToString(), cn);
             d.Fill(dsCharacter, "ActorScenario");
         }
